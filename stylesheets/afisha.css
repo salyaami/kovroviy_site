@@ -1,0 +1,746 @@
+
+  .screen_help {
+    display: none;
+    z-index: 113;
+  }
+
+  .look3 {
+    display: none;
+  }
+  .look2 {
+    display: none;
+  }
+
+  .bag {
+    background-image: url(../img/bag.png);
+    position: absolute;
+    left: 11.53vw;
+    top: 6.11vw;
+    height: 43.75vw;
+    width: 32.36vw;
+  }
+
+  .rug {
+    background-image: url(../img/rug.png);
+    position: absolute;
+    left: 55vw;
+    top: 6.11vw;
+    height: 43.75vw;
+    width: 39.72vw;
+  }
+
+  .rug:hover {
+    transform: scale(1.1);
+  }
+  .bag:hover {
+    transform: scale(1.1);
+  }
+
+  .look1, .look3, .look2 {
+    position: fixed;
+    justify-content: center;
+    border-radius: 20px;
+    background: white;
+    height: 100vh;
+    width: 46.74vw;
+    right: 0;
+    top: 0;
+  }
+
+  span {
+    font-size: 5.56vw;
+    color: black;
+    font-family: Voxel;
+  }
+  .look2 p:first-child, .look3 p:first-child, .look1 p:first-child{
+    font-size: 5.56vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -3vw;
+  }
+
+  .numb1 {
+    position: relative;
+    display: block;
+    height: 3.75vw;
+    width: 3.75vw;
+    top: -14vw;
+    left: 2vw;
+    background-image: url("../img/это 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .numb2 {
+    position: relative;
+    display: block;
+    height: 3.75vw;
+    width: 3.75vw;
+    top: -14vw;
+    left: 2vw;
+    background-image: url("../img/это 2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .numb3 {
+    position: relative;
+    display: block;
+    height: 3.75vw;
+    width: 3.75vw;
+    top: -14vw;
+    left: 2vw;
+    opacity: 0%;
+    background-image: url("../img/это 3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p.dis {
+    font-size: 22px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 8vw;
+    left: 8vw;
+    width: 28.64vw;
+    text-align: center;
+  }
+  .even2 {
+    position: relative;
+    width: 22.22vw;
+    height: 33.19vw;
+    background-size: cover;
+    top: -10vw;
+    margin: auto;
+    background-image: url("../img/main_afi2.svg");
+  }
+  .even1 {
+    position: relative;
+    width: 22.22vw;
+    background-size: cover;
+    height: 33.19vw;
+    top: -10vw;
+    margin: auto;
+    background-image: url("../img/main_afi1.svg");
+  }
+  .even3 {
+    position: relative;
+    width: 22.22vw;
+    height: 33.19vw;
+    top: -10vw;
+    margin: auto;
+    background-size: cover;
+    background-image: url("../img/main_afi3.svg");
+  }
+
+
+
+/* лента событий */
+
+/* событие 1 */
+
+  .event1 {
+    position: absolute;
+    width: 43.06vw;
+    left: 5.14vw;
+    top: 8vw;
+    height: 32.08vw;
+  }
+
+  .fi {
+    background-image: url('../img/1event.svg');
+    background-size: cover;
+    width: 43.06vw;
+    height: 20.69vw;
+    position: relative;
+  }
+
+  .edi {
+    background-image: url('../img/это 1.svg');
+    background-size: cover;
+    position: relative;
+    width: 2.43vw;
+    height: 2.43vw;
+    left: 4vw;
+    margin-top: 2vw;
+  }
+  /* кнопка повторяется */
+  .more-inf1, .more-inf2, .more-inf3 {
+    position: relative;
+    margin: auto;
+    width: 15.63vw;
+    height: 2.08vw;
+    background: #DFFB6E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+  }
+
+  .more-inf1:hover, .more-inf2:hover, .more-inf3:hover {
+    border: 2px solid #07B819;
+  }
+
+
+  p.inf {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  /* текст описания события */
+
+  p.name {
+    position: relative;
+    font-size: 4.17vw;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: -2vw;
+  }
+
+  span.name {
+    font-size: 4.68vw;
+    color: black;
+  }
+
+  /* второе событие */
+
+  .event2 {
+    position: absolute;
+    width: 43.06vw;
+    left: 5.14vw;
+    top: 46.53vw;
+    height: 43.82vw;
+  }
+  .dvo {
+    background-image: url('../img/это 2.svg');
+    background-size: cover;
+    position: relative;
+    width: 2.43vw;
+    height: 2.43vw;
+    left: 4vw;
+    margin-top: 2vw;
+  }
+
+  .sec {
+    background-image: url('../img/sec.svg');
+    width: 21.94vw;
+    height: 32.92vw;
+    position: relative;
+    margin: auto;
+    background-size: cover;
+  }
+
+
+  /* это третье событие */
+
+  .event3 {
+    position: absolute;
+    width: 43.06vw;
+    left: 5.14vw;
+    top: 97.53vw;
+    height: 33.33vw;
+  }
+
+  .third {
+    background-image: url('../img/third.svg');
+    width: 43.06vw;
+    height: 20.97vw;
+    position: relative;
+    background-size: cover;
+  }
+
+  .tri {
+    background-image: url('../img/это 3.svg');
+    background-size: cover;
+    position: relative;
+    width: 2.43vw;
+    height: 2.43vw;
+    margin-top: 2vw;
+  }
+
+  p.btnn {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    background: #DFFB6E;
+    margin-left: auto;
+    margin-right: auto;
+    top: -7vw;
+    position: relative;
+    margin: auto;
+    width: 15.63vw;
+    height: 2.08vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* адаптивы для планшетов */
+  @media screen and (min-width: 441px) and (max-width: 820px) {
+
+
+    body {
+      background-image: url("../img/bg_ipad.svg");
+      background-size: cover;
+      display: block;
+      height: 100vh;
+    }
+
+    .white {
+      width: 51.33vw;
+    }
+
+    .afisha {
+      width: 49.4vw;
+      height: 12vw;
+    }
+
+    .skazka {
+      width: 49.4vw;
+      height: 12vw;
+      top: 21vw;
+    }
+
+    .merch {
+      width: 49.4vw;
+      height: 12vw;
+      top: 33vw;
+    }
+
+    .rugs {
+      width: 49.4vw;
+      height: 12vw;
+      top: 45vw;
+    }
+
+    .custom {
+      width: 49.4vw;
+      height: 12vw;
+      top: 57vw;
+    }
+    .look1, .look2, .look3 {
+      height: 58.98vw;
+      width: 100vw;
+      right: 0;
+      top: 7.9vw;
+      border-radius: 12px;
+      z-index: 12;
+      position: fixed;
+    }
+    .even1, .even2, .even3 {
+      width: 32.42vw;
+      height: 48.57vw;
+      position: relative;
+      left: -30vw;
+      top: -15vw;
+    }
+
+    span {
+      font-size: 6.5vw;
+    }
+    .look2 p:first-child, .look3 p:first-child, .look1 p:first-child{
+      font-size: 6.5vw;
+      left: 20vw;
+    }
+    .look3 p:first-child {
+      margin-left: -9vw;
+    }
+    .numb3 {
+      opacity: 100%;
+      margin-left: -12vw;
+    }
+
+    .numb1, .numb2, .numb3 {
+      top: -16vw;
+      left: 46vw;
+    }
+    p.dis {
+      position: relative;
+      bottom: 62vw;
+      left: 45vw;
+      width: 44.64vw;
+      text-align: left;
+    }
+    p.btnn {
+      width: 39.06vw;
+      height: 3.9vw;
+      top: -35vw;
+      left: 14vw;
+    }
+    .event1 {
+      width: 80.73vw;
+      height: 60.16vw;
+      top: 52vh;
+    }
+    .event2 {
+      width: 80.73vw;
+      height: 82.16vw;
+      top: 104.54vh;
+    }
+    .event3 {
+      width: 80.73vw;
+      height: 62.63vw;
+      top: 178vh;
+    }
+
+    .fi {
+      width: 80.73vw;
+      height: 38.67vw;
+    }
+    .sec {
+      height: 61.72vw;
+      width: 41.15vw;
+    }
+    .third {
+      height: 39.32vw;
+      width: 80.73vw;
+    }
+    .edi {
+      width: 4.43vw;
+      height: 4.43vw;
+      left: 14vw;
+      margin-top: 3vw;
+    }
+    .dvo {
+      width: 4.43vw;
+      height: 4.43vw;
+      left: 13vw;
+      margin-top: 3vw;
+    }
+    .tri {
+      width: 4.43vw;
+      height: 4.43vw;
+      left: 4vw;
+      margin-top: 3vw;
+    }
+
+    p.name {
+      font-size: 7.4vw;
+    }
+    span.name {
+      font-size: 7.6vw;
+    }
+    .more-inf1, .more-inf2, .more-inf3 {
+      width: 39.06vw;
+      height: 3.9vw;
+      margin-top: 3vw;
+    }
+    /* экран с выбором ковер или мерч */
+  }
+
+  /* адаптивы для планшетов */
+  @media screen and (min-width: 381px) and (max-width: 440px) {
+
+
+    body {
+      background-image: url("../img/bg_iphone.svg");
+      background-size: cover;
+      display: block;
+      height: 100vh;
+    }
+    .white {
+      width: 100vw;
+    }
+    .text {
+      font-size: 30px;
+    }
+    .close {
+      left: 2vw;
+    }
+    .afisha, .skazka, .merch, .rugs, .custom {
+      left: 2vw;
+      width: 96vw;
+      height: 18vw;
+    }
+    .afisha { top: 16vw;
+    }
+    .skazka { top: 34vw;
+    }
+    .merch { top: 52vw;
+    }
+    .rugs { top: 70vw;
+    }
+    .custom { top: 88vw;
+    }
+
+    .look1, .look2, .look3 {
+      width: 100vw;
+      height: 62.56vw;
+      top: 13.04vw;
+      border-radius: 9px;
+      z-index: 12;
+    }
+    .even1, .even2, .even3 {
+      width: 38.16vw;
+      height: 55.56vw;
+      left: -25vw;
+      top: -20vw;
+    }
+    .numb1, .numb2 {
+      height: 5.07vw;
+      width: 5.07vw;
+      left: 48vw;
+      top: -17vw;
+    }
+    .numb3 {
+      left: 44vw;
+      top: -17vw;
+      opacity: 100%;
+    }
+    span {
+      font-size: 7vw;
+    }
+
+    .look2 p:first-child, .look3 p:first-child, .look1 p:first-child {
+      font-size: 6vw;
+      margin-left: 46vw;
+    }
+    p.dis {
+      font-size: 2.90vw;
+      text-align: left;
+      top: -63vw;
+      left: 49vw;
+      width: 44vw;
+    }
+    p.btnn {
+      width: 31.64vw;
+      height: 5vw;
+      top: -41vw;
+      font-size: 4.35vw;
+      left: 14vw;
+    }
+
+    .event1 {
+      top: 40.22vh;;
+      width: 90.58vw;
+      height: 68.60vw;
+    }
+    span.name {
+      font-size: 13.04vw;
+    }
+    p.name {
+      font-size: 11.11vw;
+    }
+    .more-inf1, .more-inf2, .more-inf3 {
+      width: 34.64vw;
+      height: 5vw;
+      margin-top: 4vw;
+    }
+    .edi, .dvo, .tri {
+      height: 6vw;
+      width: 6vw;
+      margin-left: 2vw;
+      margin-top: 4vw;
+    }
+    .dvo {
+      left: 1vw;
+    }
+    .tri {
+      left: 10vw;
+    }
+
+    p.inf {
+    font-size: 4.35vw;
+    }
+    .fi {
+      width: 90.58vw;
+      height: 43.48vw;
+    }
+    .sec {
+      height: 81.16vw;
+      width: 54.11vw;
+    }
+    .third {
+      width: 90.58vw;
+      height: 44.69vw;
+    }
+    .event2 {
+      top: 84.56vh;
+      width: 90.58vw;
+      height: 106vw;
+    }
+    .event3 {
+      top: 144.38vh;
+      width: 90.58vw;
+      height: 82.85vw;
+    }
+    .more-inf3 {
+      margin-bottom: 7vw;
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 380px) {
+
+    body {
+      background-image: url("../img/mini_iphone.svg");
+      background-size: cover;
+      display: block;
+      height: 100vh;
+    }
+
+    nav {
+      width: 300px;
+      left: 60px;
+    }
+
+          p {
+            font-size: 16px;
+          }
+
+          .navi p {
+            left: 67px;
+            top: 7px;
+          }
+
+          .container {
+            left: 244px;
+          }
+
+          .clock {
+            left: 316px;
+          }
+          .nav.menu {
+            left: 12px;
+          }
+    .text {
+      font-size: 30px;
+    }
+
+    .close {
+      left: 2vw;
+    }
+
+    .afisha, .skazka, .merch, .rugs, .custom {
+      left: 2vw;
+      width: 96vw;
+      height: 18vw;
+    }
+    .white {
+      width: 100vw;
+    }
+
+    .afisha { top: 16vw;
+    }
+    .skazka { top: 34vw;
+    }
+    .merch { top: 52vw;
+    }
+    .rugs { top: 70vw;
+    }
+    .custom { top: 88vw;
+    }
+
+    .look1, .look2, .look3 {
+      width: 100vw;
+      height: 54.56vw;
+      top: 15.04vw;
+      border-radius: 9px;
+      z-index: 12;
+    }
+    .even1, .even2, .even3 {
+      width: 32.53vw;
+      height: 47.47vw;
+      left: -25vw;
+      top: -20vw;
+    }
+    .numb1, .numb2 {
+      height: 5.07vw;
+      width: 5.07vw;
+      left: 48vw;
+      top: -17vw;
+    }
+    .numb3 {
+      left: 44vw;
+      top: -17vw;
+      opacity: 100%;
+    }
+    span {
+      font-size: 7vw;
+    }
+
+    .look2 p:first-child, .look3 p:first-child, .look1 p:first-child {
+      font-size: 6vw;
+      margin-left: 46vw;
+    }
+    p.dis {
+      font-size: 2.90vw;
+      text-align: left;
+      top: -63vw;
+      left: 49vw;
+      width: 44vw;
+    }
+    p.btnn {
+      width: 31.64vw;
+      height: 5vw;
+      top: -45vw;
+      font-size: 4.35vw;
+      left: 14vw;
+    }
+
+    .event1 {
+      top: 42.22vh;
+      width: 90.58vw;
+      height: 68.60vw;
+    }
+    span.name {
+      font-size: 10vw;
+    }
+    p.name {
+      font-size: 8vw;
+    }
+    .more-inf1, .more-inf2, .more-inf3 {
+      width: 34.64vw;
+      height: 5vw;
+      margin-top: 2vw;
+    }
+
+    .edi, .dvo, .tri {
+      height: 6vw;
+      width: 6vw;
+      margin-left: 8vw;
+      margin-top: 4vw;
+    }
+    .dvo {
+      left: 3vw;
+    }
+    .tri {
+      left: -7vw;
+    }
+
+    p.inf {
+    font-size: 4.35vw;
+    }
+    .fi {
+      width: 90.58vw;
+      height: 43.48vw;
+    }
+    .sec {
+      height: 81.25vw;
+      width: 54.38vw;
+    }
+    .third {
+      width: 90.58vw;
+      height: 44.69vw;
+    }
+    .event2 {
+      top: 87.56vh;
+      width: 90.58vw;
+      height: 109vw;
+    }
+    .event3 {
+      top: 154.38vh;
+      width: 90.58vw;
+      height: 82.85vw;
+    }
+    .more-inf3 {
+      margin-bottom: 7vw;
+    }
+
+  }

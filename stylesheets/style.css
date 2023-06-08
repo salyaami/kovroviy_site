@@ -1,0 +1,21 @@
+/* адаптивы для планшетов */
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+  .rug {
+    position: absolute;
+    left: 2vw;
+    top: 47vw;
+    height: 43.75vw;
+    width: 32.36vw;
+  }
+
+  .bag {
+    position: absolute;
+    left: 2vw;
+    top: 17vw;
+    height: 30vw;
+    width: 27vw;
+  }
+
+  /* экран с выбором ковер или мерч */
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <title>посидим поедим</title>
+    <!-- самая важная строчка в твоей жизни!! не забудь ее в следующий раз -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link href="https://allfont.ru/allfont.css?fonts=pragmatica" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link href="stylesheets/skazka.css" rel="stylesheet">
+    <link href="stylesheets/menu.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  </head>
+
+  <style media="screen">
+
+  body {
+    background-image: url("img/bg_black.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  @font-face {
+  font-family: Voxel; /* Имя шрифта */
+  src: url(Voxel.otf); /* Путь к файлу со шрифтом */
+  }
+
+  P {
+    font-family: 'Pragmatica', arial;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  span {
+    font-family: Voxel;
+    font-size: 5.56vw;
+  }
+
+  .screen_help {
+    display: none;
+    z-index: 113;
+  }
+
+  h3 {
+    font-family: 'Pragmatica', arial;
+    font-size: 1.53vw;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  </style>
+
+  <body>
+    <!-- это все верхняя плашка -->
+    <nav>
+      <div class="menu"></div>
+      <a href="index.html" class="navi">
+        <p>ПОСИДИМ ПОЕДИМ</p>
+      </a>
+    </nav>
+
+    <div class="clock">
+
+      <div class="hour">
+        <div class="hours"></div>
+      </div>
+
+      <div class="minute">
+        <div class="minutes"></div>
+      </div>
+
+      <div class="second">
+        <div class="seconds"></div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class='eye'></div>
+      <div class='eye'></div>
+    </div>
+
+    <!-- это все верхняя плашка -->
+
+    <!-- это меню!!!! -->
+
+    <div class="screen_help">
+      <div class="white">
+      </div>
+
+      <div class="close"></div>
+
+      <a href="afisha.html" class="afisha">
+        <p class="text">АФИША</p>
+      </a>
+
+      <a href="skazka.html" class="skazka">
+        <p class="text">СКАЗКА О НАС</p>
+      </a>
+
+      <a href="merch.html" class="merch">
+        <p class="text">МЕРЧ</p>
+      </a>
+
+      <a href="carpets.html" class="rugs">
+        <p class="text">КОВРЫ</p>
+      </a>
+
+      <a href="https://salyaami.github.io/js_kovriki/" target="_blank" class="custom">
+        <p class="text">КАСТОМ ОНЛАЙН</p>
+      </a>
+
+    </div>
+
+    <!-- это меню!!!! -->
+
+    <div class="side_black">
+      <div class="main_6">
+      <p><span class="vox">#6</span>-галерея</p>
+      <p>глава повествует о пространстве
+магазина, где происходит покупка
+ковров и мерча. модульная конструкция
+стендов, составные витрины — это все
+про наш волшебный рынок!</p>
+    </div>
+    <div class="btn_order">
+      <h3>заказать</h3>
+
+    </div>
+    </div>
+
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+    <div class="slider"></div>
+    <div class="slider1"></div>
+
+    <div class="glava1">
+      <div class="img1"></div>
+      <h3 class="mini">галерея</h3>
+    </div>
+
+    <div class="glava2">
+      <div class="img2"></div>
+      <h3 class="mini">рынок</h3>
+    </div>
+
+    <div class="glava4">
+      <div class="img4"></div>
+      <h3 class="mini">где поесть</h3>
+    </div>
+
+    <div class="glava5">
+      <div class="img5"></div>
+      <h3 class="mini">купить</h3>
+    </div>
+
+    <div class="glava7">
+      <div class="img7"></div>
+      <h3 class="mini">всей семьей</h3>
+    </div>
+
+  </body>
+</html>

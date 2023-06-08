@@ -1,0 +1,660 @@
+
+  /* сам сайт */
+
+
+  .white_left {
+    position: fixed;
+    width: 30.83vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+  }
+
+  h3.opis {
+    position: relative;
+    width: 27.92vw;
+    top: 6vw;
+    left: 1.5vw;
+  }
+
+  p.names {
+    position: relative;
+    font-size: 2.50vw;
+    top: 2vw;
+    left: 1.5vw;
+    width: 10.35vw;
+  }
+  span.names {
+    position: relative;
+    top: 5vw;
+    left: 16vw;
+    width: 2.85vw;
+  }
+  .btn_merch {
+    position: relative;
+    background: #DFFB6E;
+    height: 2.08vw;
+    width: 18.19vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .btn_merch h3 {
+    text-align: center;
+  }
+  /* лента мерча  */
+  .roll {
+    position: absolute;
+    display: flex;
+    left: 35.97vw;
+    top: 7.47vw;
+    width: 141.67vw;
+    height: 44.17vw;
+  }
+
+  /* сумка */
+  .item1 {
+    display: inline;
+    width: 31vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .roll p {
+    position: relative;
+    font-size: 2.50vw;
+  }
+  .roll span {
+    font-size: 6.04vw;
+    position: absolute;
+    top: 39vw;
+  }
+  .im_bag {
+    position: relative;
+    width: 30.97vw;
+    background-repeat: no-repeat;
+    height: 33.33vw;
+    background-image: url("../img/bag_m.png");
+    background-size: cover;
+  }
+
+  /* шопер */
+  .item2 {
+    display: inline;
+    width: 30vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_shop {
+    position: relative;
+    width: 29.03vw;
+    height: 32.22vw;
+    background-image: url("../img/shop.png");
+    background-size: cover;
+  }
+  .item3 {
+    display: inline;
+    width: 30.35vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_cup {
+    position: relative;
+    width: 29.03vw;
+    height: 32.22vw;
+    background-image: url("../img/cups.png");
+    background-size: cover;
+  }
+
+
+  .item4 {
+    display: inline;
+    width: 25vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_drink {
+    position: relative;
+    width: 24.17vw;
+    height: 32.22vw;
+    background-image: url("../img/drink.png");
+    background-size: cover;
+
+  }
+
+
+  .item5 {
+    display: inline;
+    width: 37vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_t-sh {
+    position: relative;
+    width: 36.11vw;
+    height: 33.40vw;
+    background-image: url("../img/t-shirt.png");
+    background-size: cover;
+
+  }
+
+  .item6 {
+    display: inline;
+    width: 40vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_hood{
+    position: relative;
+    width: 39.93vw;
+    height: 41.53vw;
+    top: -8vw;
+    background-image: url("../img/hood.png");
+    background-size: cover;
+
+  }
+
+
+  .item7 {
+    display: inline;
+    width: 42vw;
+    height: 44.17vw;
+    margin-left: 3vw;
+  }
+  .im_plate {
+    position: relative;
+    width: 40.56vw;
+    height: 28.68vw;
+    background-image: url("../img/plate.png");
+    background-size: cover;
+
+  }
+
+  @media screen and (min-width: 415px) and (max-width: 820px) {
+
+        body {
+          background-image: url("../img/bg_ipad.svg");
+          background-size: cover;
+          display: block;
+          height: 100vh;
+        }
+
+        .white {
+          width: 51.33vw;
+        }
+
+        .afisha {
+          width: 49.4vw;
+          height: 12vw;
+        }
+
+        .skazka {
+          width: 49.4vw;
+          height: 12vw;
+          top: 21vw;
+        }
+
+        .merch {
+          width: 49.4vw;
+          height: 12vw;
+          top: 33vw;
+        }
+
+        .rugs {
+          width: 49.4vw;
+          height: 12vw;
+          top: 45vw;
+        }
+
+        .custom {
+          width: 49.4vw;
+          height: 12vw;
+          top: 57vw;
+        }
+
+    .white_left {
+      width: 100vw;
+      top: 8vw;
+      height: 42.58vw;
+    }
+
+    h3.opis {
+      font-size: 2.86vw;
+      width: 52.34vw;
+      margin-left: 2.34vw;
+      margin-top: 1vw;
+    }
+    p.names{
+      font-size: 4.69vw;
+      margin-left: 5vw;
+    }
+    span.names {
+      top: 8vw;
+      font-size: 4.9vw;
+      margin-left: 3vw;
+      margin-top: -1vw;
+    }
+    .btn_merch {
+      width: 34.11vw;
+      height: 3.91vw;
+      margin-left: 2.34vw;
+      margin-top: -8vw;
+    }
+    .btn_merch h3 {
+      font-size: 2.86vw;
+    }
+    .roll {
+      left: 22vw;
+      top: 50vw;
+      width: 52vw;
+      height: 375.9vw;
+      flex-direction: column;
+      display: flex;
+    }
+    .roll p {
+      font-size: 4.17vw;
+    }
+    .roll span {
+      font-size: 9.90vw;
+      position: relative;
+      top: 0vw;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6, .item7  {
+      width: 52vw;
+      height: 70vw;
+      margin-bottom: 10vw;
+    }
+    .item6 {
+      height: 78vw;
+    }
+    .im_bag {
+      width: 48.57vw;
+      height: 54vw;
+      margin-top: -6vw;
+    }
+    .im_shop {
+      width: 47.14vw;
+      height: 52.34vw;
+      margin-top: -1vw;
+    }
+    .im_cup {
+      width: 47.92vw;
+      height: 53.13vw;
+      margin-top: -6vw;
+    }
+    .im_drink {
+      width: 39.84vw;
+      height: 53.13vw;
+      margin-top: -1vw;
+    }
+    .im_t-sh {
+      width: 59.51vw;
+      height: 55.08vw;
+      margin-top: -6vw;
+    }
+    .im_hood {
+      width: 65.89vw;
+      height: 68.49vw;
+      margin-top: -6vw;
+    }
+    .im_plate {
+      width: 67vw;
+      height: 47.27vw;
+      margin-top: -6vw;
+    }
+
+
+  }
+
+
+  @media screen and (min-width: 381px) and (max-width: 414px) {
+
+    body {
+      background-image: url("../img/bg_iphone.svg");
+      background-size: cover;
+      display: block;
+      height: 100vh;
+    }
+    .white {
+      width: 100vw;
+    }
+    .text {
+      font-size: 30px;
+    }
+    .close {
+      left: 2vw;
+    }
+    .afisha, .skazka, .merch, .rugs, .custom {
+      left: 2vw;
+      width: 96vw;
+      height: 18vw;
+    }
+    .afisha { top: 16vw;
+    }
+    .skazka { top: 34vw;
+    }
+    .merch { top: 52vw;
+    }
+    .rugs { top: 70vw;
+    }
+    .custom { top: 88vw;
+    }
+
+
+      .white_left {
+        width: 100vw;
+        top: 16.04vw;
+        height: 81.46vw;
+        border-radius: 10px;
+      }
+      h3.opis {
+        font-size: 3.9vw;
+        width: 96.34vw;
+        margin-left: 2.34vw;
+        margin-top: -1vw;
+      }
+      p.names{
+        font-size: 5vw;
+        margin-left: 3vw;
+        margin-top: -2vw;
+      }
+      span.names {
+        top: 8vw;
+        font-size: 5.5vw;
+        margin-left: 58vw;
+        margin-top: -8vw;
+      }
+      .btn_merch {
+        width: 49.76vw;
+        height: 6.04vw;
+        margin-left: 23.34vw;
+        margin-top: -4vw;
+      }
+      .btn_merch h3 {
+        font-size: 4.35vw;
+      }
+      .roll {
+        left: 0vw;
+        top: 102vw;
+        height: 81.17vw;
+      }
+      .roll {
+        left: 16vw;
+        top: 99vw;
+        width: 41vw;
+        height: 375.9vw;
+        flex-direction: column;
+        display: flex;
+      }
+      .roll p {
+        font-size: 5.31vw;
+      }
+      .roll span {
+        font-size: 13.04vw;
+        position: relative;
+        top: 0vw;
+      }
+      .item1, .item2, .item3, .item4, .item5, .item6, .item7  {
+        width: 52vw;
+        height: 70vw;
+        margin-bottom: 20vw;
+      }
+      .item6 {
+        height: 78vw;
+      }
+      .im_bag {
+        width: 63.53vw;
+        height: 71.98vw;
+        margin-top: -6vw;
+      }
+      .im_shop {
+        width: 61.35vw;
+        height: 69.32vw;
+        margin-top: -1vw;
+      }
+      .im_cup {
+        width: 62.56vw;
+        height: 69.32vw;
+        margin-top: -6vw;
+      }
+      .im_drink {
+        width: 52.17vw;
+        height: 69.32vw;
+        margin-top: -1vw;
+      }
+      .im_t-sh {
+        width: 77.78vw;
+        height: 72vw;
+        margin-top: -6vw;
+      }
+      .im_hood {
+        width: 86vw;
+        height: 89.37vw;
+        margin-top: -6vw;
+      }
+      .im_plate {
+        width: 87.44vw;
+        height: 61.84vw;
+        margin-top: -6vw;
+      }
+    }
+
+    @media screen and (min-width: 200px) and (max-width: 380px) {
+
+
+      body {
+        background-image: url("../img/mini_iphone.svg");
+        background-size: cover;
+        display: block;
+        height: 100vh;
+      }
+
+      nav {
+        width: 300px;
+        left: 60px;
+      }
+
+            p {
+              font-size: 16px;
+            }
+
+            .navi p {
+              left: 67px;
+              top: 7px;
+            }
+
+            .container {
+              left: 244px;
+            }
+
+            .clock {
+              left: 316px;
+            }
+            .nav.menu {
+              left: 12px;
+            }
+      .text {
+        font-size: 30px;
+      }
+
+      .close {
+        left: 2vw;
+      }
+
+      .afisha, .skazka, .merch, .rugs, .custom {
+        left: 2vw;
+        width: 96vw;
+        height: 18vw;
+      }
+      .white {
+        width: 100vw;
+      }
+
+      .afisha { top: 16vw;
+      }
+      .skazka { top: 34vw;
+      }
+      .merch { top: 52vw;
+      }
+      .rugs { top: 70vw;
+      }
+      .custom { top: 88vw;
+      }
+      .white_left {
+        width: 100vw;
+        top: 16.04vw;
+        height: 71.46vw;
+        border-radius: 10px;
+      }
+      h3.opis {
+        font-size: 3.9vw;
+        width: 96.34vw;
+        margin-left: 2.34vw;
+        margin-top: -3vw;
+      }
+      p.names{
+        font-size: 5vw;
+        margin-left: 3vw;
+        margin-top: -2vw;
+      }
+      span.names {
+        top: 8vw;
+        font-size: 5.5vw;
+        margin-left: 58vw;
+        margin-top: -8vw;
+      }
+      .btn_merch {
+        width: 49.76vw;
+        height: 6.04vw;
+        margin-left: 23.34vw;
+        margin-top: -4vw;
+      }
+      .btn_merch h3 {
+        font-size: 4.35vw;
+      }
+
+      .roll {
+        left: 0vw;
+        top: 102vw;
+        height: 81.17vw;
+      }
+      .roll {
+        left: 16vw;
+        top: 88vw;
+        width: 41vw;
+        height: 375.9vw;
+        flex-direction: column;
+        display: flex;
+      }
+      .roll p {
+        font-size: 5.31vw;
+      }
+      .roll span {
+        font-size: 13.04vw;
+        position: relative;
+        top: -5vw;
+      }
+      .item1, .item2, .item3, .item4, .item5, .item6, .item7  {
+        width: 52vw;
+        height: 70vw;
+        margin-bottom: 20vw;
+      }
+      .item6 {
+        height: 78vw;
+      }
+      .im_bag {
+        width: 63.53vw;
+        height: 71.98vw;
+        margin-top: -6vw;
+      }
+      .im_shop {
+        width: 61.35vw;
+        height: 69.32vw;
+        margin-top: -1vw;
+      }
+      .im_cup {
+        width: 62.56vw;
+        height: 69.32vw;
+        margin-top: -6vw;
+      }
+      .im_drink {
+        width: 52.17vw;
+        height: 69.32vw;
+        margin-top: -1vw;
+      }
+      .im_t-sh {
+        width: 77.78vw;
+        height: 72vw;
+        margin-top: -6vw;
+      }
+      .im_hood {
+        width: 86vw;
+        height: 89.37vw;
+        margin-top: -6vw;
+      }
+      .im_plate {
+        width: 87.44vw;
+        height: 61.84vw;
+        margin-top: -6vw;
+      }
+
+
+            /* .roll {
+              left: 0vw;
+              top: 86vw;
+              height: 81.17vw;
+            }
+            .roll p {
+              font-size: 5.31vw;
+            }
+            .roll span {
+              font-size: 13.04vw;
+              top: 75vw;
+            }
+            .im_bag, .item1 {
+              width: 63.53vw;
+              height: 71.98vw;
+              top: -4vw;
+            }
+            .im_shop, .item2 {
+              width: 61.35vw;
+              height: 69.32vw;
+              top: -4vw;
+            }
+            .item3, .im_cup {
+              width: 62.56vw;
+              height: 69.32vw;
+              top: -4vw;
+            }
+            .item4, .im_drink {
+              width: 44.17vw;
+              height: 60.3vw;
+              top: 2vw;
+              margin-right: 5vw;
+              margin-left: 5vw;
+            }
+            .item5, .im_t-sh {
+              width: 66.78vw;
+              height: 64vw;
+              top: 2vw;
+              margin-left: 5vw;
+            }
+            .item6, .im_hood {
+              width: 69vw;
+              height: 73.37vw;
+              top: 2vw;
+              margin-top: -2vw;
+              margin-left: 10vw;
+              margin-right: 11vw;
+            }
+            .item7, .im_plate {
+              width: 87.44vw;
+              height: 61.84vw;
+              top: 2vw;
+            } */
+        }

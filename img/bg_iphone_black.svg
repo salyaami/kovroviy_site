@@ -1,0 +1,35 @@
+<svg width="414" height="896" viewBox="0 0 414 896" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_418_89258)">
+<rect width="414" height="896" fill="#323232"/>
+<g clip-path="url(#clip1_418_89258)">
+<mask id="mask0_418_89258" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-74" y="0" width="561" height="897">
+<path d="M486.999 896L486.999 0.00012207L-73.0004 9.75919e-05L-73.0005 896L486.999 896Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_418_89258)">
+<path d="M486.999 896.003L486.999 0.00250244L-73.0004 0.00247796L-73.0005 896.003L486.999 896.003Z" fill="#3F3F3F"/>
+<path d="M501.933 153.689L-84.2686 739.89" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M640.931 573.065L-188.085 573.065" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M645.043 322.129L-183.967 322.129" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M640.931 619.55L-188.085 619.55" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M35.8506 -130.665L35.8505 936.427" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M81.9248 -117.503L81.9248 949.592" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M332.86 -130.665L332.86 936.427" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M645.043 275.644L-183.967 275.644" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M655.863 871.691L-173.154 871.691" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M659.977 24.2684L-169.034 24.2683" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M655.863 741.547L-173.154 741.547" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M659.977 154.934L-169.034 154.934" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M497.818 740.714L-88.3826 154.515" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+<path d="M378.11 -117.503L378.11 949.592" stroke="#E3D0FD" stroke-opacity="0.4" stroke-width="1.23411"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_418_89258">
+<rect width="414" height="896" fill="white"/>
+</clipPath>
+<clipPath id="clip1_418_89258">
+<rect width="896" height="559.999" fill="white" transform="translate(487) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

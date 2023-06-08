@@ -1,0 +1,245 @@
+/* это все верхняя плашка */
+
+nav {
+  display: block;
+  position: fixed;
+  width: 325px;
+  height: 40px;
+  background: white;
+  border-radius: 5px;
+  left: 68px;
+  top: 10px;
+  z-index: 111;
+}
+
+nav .menu {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-image: url("../img/menu.png");
+  left: 16px;
+  top: 10px;
+}
+
+.clock {
+  width: 48px;
+  height: 40px;
+  background-color: #EB4F27;
+  top: 10px;
+  left: 346px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 5px 5px 0px;
+  z-index: 112;
+
+  &::before {
+    content: " ";
+    position: fixed;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #FEC708;
+    z-index: 111;
+  }
+}
+
+.hour {
+  position: fixed;
+}
+
+  .hours {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+  }
+
+    .hours::before {
+      content: " ";
+      position: fixed;
+      width: 3px;
+      height: 12px;
+      border-radius: 6px;
+      background: black;
+      z-index: 111;
+    }
+
+.minute {
+  position: fixed;
+}
+
+  .minutes {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+    .minutes::before {
+      content: " ";
+      position: fixed;
+      width: 3px;
+      height: 15px;
+      border-radius: 6px;
+      background: white;
+      z-index: 111;
+}
+
+.second {
+  position: fixed;
+}
+
+  .seconds {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+    .seconds::before {
+      content: " ";
+      position: fixed;
+      width: 3px;
+      height: 18px;
+      border-radius: 6px;
+      background: #FEC708;
+      z-index: 111;
+}
+
+.navi p {
+  position: fixed;
+  left: 78px;
+  top: 6px;
+  color: black;
+}
+
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 40px;
+  background: #D763F7;
+  left: 274px;
+  top: 10px;
+  z-index: 112;
+}
+
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 33px;
+  width: 33px;
+  background: #fff;
+}
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 50%;
+  content: " ";
+}
+
+/* это все верхняя плашка */
+
+.close {
+  position: fixed;
+  width: 41px;
+  height: 41px;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-image: url("../img/close.svg");
+  left: 16px;
+  top: 10px;
+  z-index: 113;
+}
+
+.white {
+  position: fixed;
+  width: 28.33vw;
+  background-color: white;
+  height: 100vh;
+  border-radius: 19px;
+  top: 0;
+  left: 0;
+  z-index: 113;
+}
+
+.afisha {
+  position: fixed;
+  width: 26.39vw;
+  height: 6.25vw;
+  border-radius: 12px;
+  background-color: #C4D332;
+  top: 9.17vw;
+  left: 0.97vw;
+  z-index: 113;
+  text-decoration: none;
+}
+
+.text {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+
+.skazka {
+  position: fixed;
+  width: 26.39vw;
+  height: 6.25vw;
+  border-radius: 12px;
+  background-color: #D763F7;
+  top: 15.28vw;
+  left: 0.97vw;
+  z-index: 113;
+  text-decoration: none;
+}
+
+.merch {
+  position: fixed;
+  width: 26.39vw;
+  height: 6.25vw;
+  border-radius: 12px;
+  background-color: #FEC708;
+  top: 21.53vw;
+  left: 0.97vw;
+  z-index: 113;
+  text-decoration: none;
+}
+
+.rugs {
+  position: fixed;
+  width: 26.39vw;
+  height: 6.25vw;
+  border-radius: 12px;
+  background-color: #C4D332;
+  top: 27.78vw;
+  left: 0.97vw;
+  z-index: 113;
+  text-decoration: none;
+}
+
+.custom {
+  position: fixed;
+  width: 26.39vw;
+  height: 6.25vw;
+  border-radius: 12px;
+  background-color: #D763F7;
+  top: 34.03vw;
+  left: 0.97vw;
+  z-index: 113;
+  text-decoration: none;
+}
