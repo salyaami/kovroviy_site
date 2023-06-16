@@ -202,7 +202,6 @@
 
     @media screen and (min-width: 200px) and (max-width: 380px) {
 
-
       body {
         background-image: url("../img/mini_iphone.svg");
         background-size: cover;

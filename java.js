@@ -77,12 +77,5 @@ $(document).ready(function(){
   document.querySelector(".afisha")[0].onclick = function(){window.location.href='afisha.html'}
 
 // это свайпер для страниц книги
-  new Swiper('.image_slider', {
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
 
 });
