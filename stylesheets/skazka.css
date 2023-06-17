@@ -389,6 +389,11 @@
       left: 91.64vw;
       top: 104.81vw;
     }
+    .wrapper {
+    padding: 30px;
+    min-height: 100%;
+    margin-top: 64vw;
+}
   }
 
   @media screen and (min-width: 200px) and (max-width: 380px) {
@@ -399,6 +404,7 @@
       display: block;
       height: 100vh;
     }
+
     nav {
       width: 300px;
       left: 60px;
