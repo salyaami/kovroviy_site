@@ -195,46 +195,13 @@
   }
 
 
-  @media screen and (min-width: 415px) and (max-width: 820px) {
+  @media all and (min-width: 415px) and (max-width: 820px) {
 
           body {
             background-image: url("../img/bg_ipad_black.svg");
             background-size: cover;
             display: block;
             height: 100vh;
-          }
-
-          .white {
-            width: 51.33vw;
-          }
-
-          .afisha {
-            width: 49.4vw;
-            height: 12vw;
-          }
-
-          .skazka {
-            width: 49.4vw;
-            height: 12vw;
-            top: 21vw;
-          }
-
-          .merch {
-            width: 49.4vw;
-            height: 12vw;
-            top: 33vw;
-          }
-
-          .rugs {
-            width: 49.4vw;
-            height: 12vw;
-            top: 45vw;
-          }
-
-          .custom {
-            width: 49.4vw;
-            height: 12vw;
-            top: 57vw;
           }
 
     .side_black {

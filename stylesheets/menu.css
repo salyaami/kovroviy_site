@@ -243,10 +243,8 @@ nav .menu {
   z-index: 113;
   text-decoration: none;
 }
-
 /* адаптивы для планшетов */
 @media screen and (min-width: 441px) and (max-width: 820px) {
-
 
   body {
     background-image: url("../img/bg_ipad.svg");
@@ -287,6 +285,7 @@ nav .menu {
     height: 12vw;
     top: 57vw;
   }
+}
 
 /* адаптивы для планшетов */
 @media screen and (min-width: 381px) and (max-width: 440px) {
@@ -322,7 +321,7 @@ nav .menu {
   }
   .custom { top: 88vw;
   }
-
+}
 
 @media screen and (min-width: 200px) and (max-width: 380px) {
 
@@ -384,3 +383,4 @@ nav .menu {
   }
   .custom { top: 88vw;
   }
+}
