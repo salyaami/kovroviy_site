@@ -12,6 +12,70 @@ $(document).ready(function(){
     $(".screen_help").css("display", "none")
   });
 
+// появление формы
+
+$(".btnn").click(function() {
+  $(".background").css("display", "block")
+  $(".question").css("display", "block")
+});
+
+$(".cross2").click(function() {
+  $(".background").css("display", "none")
+  $(".question").css("display", "none")
+});
+
+  $(".cross").click(function() {
+    $(".background").css("display", "none")
+    $(".forma").css("display", "none")
+  });
+
+  $(".button").click(function() {
+    $(".forma").css("display", "none")
+    $(".forma_after").css("display", "block")
+  });
+
+  $(".forma_after").click(function() {
+    $(".forma_after").css("display", "none")
+    $(".background").css("display", "none")
+  });
+
+  // тут радио-кнопки с коврами
+
+
+  $(".btn_merch").click(function() {
+    $(".question").css("display", "block")
+    $(".background").css("display", "block")
+  });
+
+  $(".cross2").click(function() {
+    $(".background").css("display", "none")
+    $(".question").css("display", "none")
+  });
+
+  $(".next1").click(function() {
+    $(".question").css("display", "none")
+    $(".background").css("display", "block")
+    $(".forma").css("display", "block")
+  });
+
+  // выбрать из сказки
+  $(".btn_order").click(function() {
+    $(".question").css("display", "block")
+    $(".background").css("display", "block")
+  });
+
+  $(".cross2").click(function() {
+    $(".background").css("display", "none")
+    $(".question").css("display", "none")
+  });
+
+  $(".next1").click(function() {
+    $(".question").css("display", "none")
+    $(".background").css("display", "block")
+    $(".forma").css("display", "block")
+  });
+
+  // закончились формы и чек-листы ура
 
   $(".more-inf3").click(function() {
     $(".look1").css("display", "none")

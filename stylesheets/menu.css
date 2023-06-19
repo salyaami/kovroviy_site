@@ -232,12 +232,12 @@ nav .menu {
   text-decoration: none;
 }
 
-.custom {
+.custom1 {
   position: fixed;
   width: 26.39vw;
   height: 6.25vw;
   border-radius: 12px;
-  background-color: #D763F7;
+  background-color: #EB4F27;
   top: 34.03vw;
   left: 0.97vw;
   z-index: 113;
@@ -280,7 +280,7 @@ nav .menu {
     top: 45vw;
   }
 
-  .custom {
+  .custom1 {
     width: 49.4vw;
     height: 12vw;
     top: 57vw;
@@ -306,7 +306,7 @@ nav .menu {
   .close {
     left: 2vw;
   }
-  .afisha, .skazka, .merch, .rugs, .custom {
+  .afisha, .skazka, .merch, .rugs, .custom1 {
     left: 2vw;
     width: 96vw;
     height: 18vw;
@@ -319,7 +319,7 @@ nav .menu {
   }
   .rugs { top: 70vw;
   }
-  .custom { top: 88vw;
+  .custom1 { top: 88vw;
   }
 }
 
@@ -364,7 +364,7 @@ nav .menu {
     left: 2vw;
   }
 
-  .afisha, .skazka, .merch, .rugs, .custom {
+  .afisha, .skazka, .merch, .rugs, .custom1 {
     left: 2vw;
     width: 96vw;
     height: 18vw;
@@ -381,6 +381,6 @@ nav .menu {
   }
   .rugs { top: 70vw;
   }
-  .custom { top: 88vw;
+  .custom1 { top: 88vw;
   }
 }

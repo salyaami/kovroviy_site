@@ -42,9 +42,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #DFFB6E;
     margin: auto;
     border-radius: 5px;
+    margin-top: 1vh;
   }
+  .btn_merch:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid #DFFB6E;
+    transition: .5s;
+    cursor: pointer;
+  }
+
   .btn_merch h3 {
     text-align: center;
   }
@@ -53,7 +63,7 @@
     position: absolute;
     display: flex;
     left: 35.97vw;
-    top: 7.47vw;
+    top: 4vh;
     width: 141.67vw;
     height: 44.17vw;
   }

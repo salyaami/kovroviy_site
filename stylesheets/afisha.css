@@ -58,7 +58,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: -3vw;
+    top: -10vh;
+
   }
 
   .numb1 {
@@ -66,7 +67,7 @@
     display: block;
     height: 3.75vw;
     width: 3.75vw;
-    top: -14vw;
+    top: -33vh;
     left: 2vw;
     background-image: url("../img/это 1.svg");
     background-repeat: no-repeat;
@@ -78,7 +79,7 @@
     display: block;
     height: 3.75vw;
     width: 3.75vw;
-    top: -14vw;
+    top: -33vh;
     left: 2vw;
     background-image: url("../img/это 2.svg");
     background-repeat: no-repeat;
@@ -90,7 +91,7 @@
     display: block;
     height: 3.75vw;
     width: 3.75vw;
-    top: -14vw;
+    top: -33vh;
     left: 2vw;
     opacity: 0%;
     background-image: url("../img/это 3.svg");
@@ -99,41 +100,41 @@
   }
 
   p.dis {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 8vw;
-    left: 8vw;
-    width: 28.64vw;
+    bottom: 28vh;
+    left: 12vw;
+    width: 22.64vw;
     text-align: center;
   }
   .even2 {
     position: relative;
-    width: 22.22vw;
-    height: 33.19vw;
+    width: 20.3vw;
     background-size: cover;
-    top: -10vw;
+    height: 30vw;
+    top: -28vh;
     margin: auto;
     background-image: url("../img/main_afi2.svg");
   }
   .even1 {
     position: relative;
-    width: 22.22vw;
+    width: 20.3vw;
     background-size: cover;
-    height: 33.19vw;
-    top: -10vw;
+    height: 30vw;
+    top: -28vh;
     margin: auto;
     background-image: url("../img/main_afi1.svg");
   }
   .even3 {
     position: relative;
-    width: 22.22vw;
-    height: 33.19vw;
-    top: -10vw;
-    margin: auto;
+    width: 20.3vw;
     background-size: cover;
+    height: 30vw;
+    top: -28vh;
+    margin: auto;
     background-image: url("../img/main_afi3.svg");
   }
 
@@ -174,17 +175,21 @@
     margin: auto;
     width: 15.63vw;
     height: 2.08vw;
-    background: #DFFB6E;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1vw;
+    background-color: #DFFB6E;
+    border: 2px solid #DFFB6E;
   }
 
   .more-inf1:hover, .more-inf2:hover, .more-inf3:hover {
-    border: 2px solid #07B819;
-  }
+    color: black;
+    background-color: white;
+    border: 2px solid #DFFB6E;
+    transition: .5s;
+    cursor: pointer;  }
 
 
   p.inf {
@@ -268,10 +273,11 @@
     font-size: 22px;
     color: black;
     text-align: center;
-    background: #DFFB6E;
+    background-color: #DFFB6E;
+    border: 2px solid #DFFB6E;
     margin-left: auto;
     margin-right: auto;
-    top: -7vw;
+    top: -27vh;
     position: relative;
     margin: auto;
     width: 15.63vw;
@@ -280,6 +286,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .btnn:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid #DFFB6E;
+  transition: .5s;
+  cursor: pointer;
   }
 
   /* адаптивы для планшетов */
@@ -432,6 +446,8 @@
       height: 3.9vw;
       margin-top: 3vw;
     }
+
+
     /* экран с выбором ковер или мерч */
   }
 
@@ -512,7 +528,7 @@
     p.btnn {
       width: 31.64vw;
       height: 5vw;
-      top: -41vw;
+      top: -47vw;
       font-size: 4.35vw;
       left: 14vw;
     }

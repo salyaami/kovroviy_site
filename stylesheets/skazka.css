@@ -29,11 +29,12 @@
   }
   .image-slider__image {
     text-align: center;
+    margin-top: 1vw;
+    margin-left: 26vw;
   }
   .image-slider__image img {
     max-width: 100%;
   }
-
 
   .image-slider .swiper-button-prev::after,
   .image-slider .swiper-button-next::after {
@@ -48,17 +49,25 @@
     background-color: white;
   }
 
+  .image-slider .swiper-button-prev {
+    margin-left: 31vw;
+  }
+  .image-slider .swiper-button-next {
+    margin-right: 1vw;
+  }
+
+
   .main_6 {
     position: relative;
     width: 21.11vw;
     height: 28.89vw;
     background-image: url('../img/main6.jpg');
     background-size: cover;
-    top: -6vw;
+    top: -10vh;
   }
 
   span {
-    font-size: 5.56vw;
+    font-size: 5vw;
     color: black;
     font-family: Voxel;
   }
@@ -83,9 +92,9 @@
   }
 
   .side_black p:nth-child(1) {
-    font-size: 3.61vw;
+    font-size: 3vw;
     position: fixed;
-    top: 31.85vw;
+    top: 65vh;
     left: 1.46vw;
     color: white;
   }
@@ -94,7 +103,7 @@
   }
   .side_black p:nth-child(2) {
     position: fixed;
-    top: 39.13vw;
+    top: 77vh;
     left: 1.25vw;
     color: white;
     width: 27.36vw;
@@ -103,15 +112,24 @@
     position: fixed;
     background-color: #DFFB6E;
     justify-content: center;
-    top: 47.53vw;
+    top: 93vh;;
     margin-left: auto;
     margin-right: auto;
     width: 13.89vw;
     height: 2.50vw;
     display: flex;
-    border-radius: 8px;
+    border: 2px solid #DFFB6E;
+    margin: auto;
+    border-radius: 5px;
   }
-  h3 {
+  .btn_order:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid #DFFB6E;
+    transition: .5s;
+    cursor: pointer;
+  }
+  h3.zak {
     position: relative;
     margin: auto;
   }
@@ -121,7 +139,7 @@
     width: 8.26vw;
     height: 12.01vw;
     left: 35.97vw;
-    top: 43.67vw;
+    top: 70vh;
   }
   h3.mini {
     color: white;
@@ -139,7 +157,7 @@
     width: 8.26vw;
     height: 12.01vw;
     left: 49.31vw;
-    top: 43.67vw;
+    top: 70vh;
   }
   .img2 {
     position: relative;
@@ -154,7 +172,7 @@
     width: 12.26vw;
     height: 12.01vw;
     left: 62.50vw;
-    top: 43.67vw;
+    top: 70vh;
   }
   .img4 {
     position: relative;
@@ -169,7 +187,7 @@
     width: 12.26vw;
     height: 12.01vw;
     left: 75.69vw;
-    top: 43.67vw;
+    top: 70vh;
   }
   .img5 {
     position: relative;
@@ -184,8 +202,9 @@
     width: 12.26vw;
     height: 12.01vw;
     left: 88.89vw;
-    top: 43.67vw;
+    top: 70vh;
   }
+
   .img7 {
     position: relative;
     background-image: url("../img/main_7.png");
@@ -239,7 +258,7 @@
       left: 34vw;
     }
     h3 {
-      font-size: 2.86vw;
+      font-size: 3.86vw;
     }
     .razv {
       width: 78vw;
@@ -348,8 +367,8 @@
       top: 60vw;
       left: 41vw;
     }
-    h3 {
-      font-size: 2.86vw;
+    .zak h3 {
+      font-size: 4.35vw;
     }
     .razv {
       width: 88vw;
@@ -536,4 +555,6 @@
       left: 91.64vw;
       top: 88.81vw;
     }
+
+    
   }
