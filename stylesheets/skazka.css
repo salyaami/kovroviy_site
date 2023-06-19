@@ -2,6 +2,8 @@
   /* сам сайт */
   body {
     background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .block {
     display: flex;
@@ -106,6 +108,7 @@
     justify-content: center;
     align-items: center;
     display: block;
+    z-index: 12;
   }
 
   .side_black2 {
@@ -407,14 +410,13 @@
       top: 14.38vw;
     }
     .main_6, .main_2, .main_4, .main_5, .main_7 {
-      width: 31.40vw;
-      height: 42.75vw;
-      left: -29.06vw;
-      top: -2vw;
+      width: 33.4vw;
+      height: 41.75vw;
+      top: 9vw;
     }
 
-    span {
-      font-size: 10.39vw;
+    span.vox {
+      font-size: 9vw;
     }
 
     .side_black p:nth-child(1),
@@ -422,7 +424,7 @@
     .side_black4 p:nth-child(1),
     .side_black5 p:nth-child(1),
     .side_black7 p:nth-child(1)  {
-      font-size: 8.70vw;
+      font-size: 6.7vw;
       top: 16vw;
       left: 41vw;
     }
@@ -435,7 +437,7 @@
       top: 34vw;
       left: 41vw;
       color: white;
-      width: 56.36vw;
+      width: 51.36vw;
       font-size: 2.9vw;
     }
 
@@ -445,8 +447,8 @@
       top: 60vw;
       left: 41vw;
     }
-    .zak h3 {
-      font-size: 4.35vw;
+    h3.zak {
+      font-size: 3.53vw;
     }
     .razv {
       width: 88vw;
@@ -490,8 +492,17 @@
     padding: 30px;
     min-height: 100%;
     margin-top: 64vw;
-}
+    }
+
+    .image-slider__image {
+      text-align: center;
+      margin-top: 69vw;
+      margin-left: 4vw;
   }
+
+  .image-slider .swiper-button-prev {
+    margin-left: 1vw;
+}
 
   @media screen and (min-width: 200px) and (max-width: 380px) {
 

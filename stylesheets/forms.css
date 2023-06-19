@@ -190,7 +190,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   background-color: #DFFB6E;
   border: 2px solid #DFFB6E;
   border-radius: 6px;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   z-index: 10;
@@ -347,25 +346,34 @@ color: black;
 
 /* адаптивы для mobiles */
 @media screen and (min-width: 381px) and (max-width: 440px) {
+  
   .question {
     width: 100vw;
-    height: 69vh;
+    height: 72vh;
     left: 0;
   }
 
   p.form {
-    margin-left: -1vw;
+    margin-left: -3vw;
+    margin-top: 7vw;
   }
 
   .fo {
     top: -5vw;
     margin: 62px 9px -12px 20px;
+    width: 266px;
   }
 
   .forma {
     width: 100vw;
-    height: 77vh;
+    height: 80vh;
     left: 0;
+    top: 8vh;
+  }
+
+  .question {
+    left: 0;
+    top: 8vh;
   }
   .form-split {
     width: 400px;
@@ -376,11 +384,26 @@ color: black;
     width: 92vw;
     height: 17.3vw;
     left: 0;
+    top: 43vh;
+    border-radius: 10px;
   }
   .form_a {
     font-size: 32px;
     line-height: 29px;
     margin-top: -8px;
     margin-left: 0vw;
+  }
+  .list2 span {
+    font-size: 45px;
+  }
+  .cross2, .cross {
+    top: 10px;
+    left: 359px;
+  }
+
+  .background {
+    top: 0px;
+    z-index: 13;
+    left: 0;
   }
 }

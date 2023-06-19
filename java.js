@@ -220,7 +220,8 @@ $(".cross2").click(function() {
 
   clock()
 
-  document.querySelector(".afisha")[0].onclick = function(){window.location.href='afisha.html'}
+
+  // document.querySelector(".afisha")[0].onclick = function(){window.location.href='afisha.html'}
 
 // это свайпер для страниц книги
 
