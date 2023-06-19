@@ -1,0 +1,485 @@
+/* сам сайт */
+
+.white_left {
+  position: fixed;
+  width: 30.83vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 9;
+}
+
+h3.opis {
+  position: relative;
+  width: 27.92vw;
+  top: 6vw;
+  left: 1.5vw;
+}
+
+p.names {
+  position: relative;
+  font-size: 2.50vw;
+  top: 2vw;
+  left: 1.5vw;
+  width: 10.35vw;
+}
+span.names {
+  position: relative;
+  top: 5vw;
+  left: 16vw;
+  width: 2.85vw;
+  font-size: 2.8vw;
+}
+.btn_merch {
+  position: relative;
+  background: #DFFB6E;
+  height: 2.08vw;
+  width: 18.19vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #DFFB6E;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 1vh;
+}
+.btn_merch:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid #DFFB6E;
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+.btn_merch h3 {
+  text-align: center;
+}
+/* лента мерча  */
+.roll {
+  position: absolute;
+  display: flex;
+  left: 35.97vw;
+  top: 1vh;
+  width: 146.67vw;
+  height: 44.17vw;
+}
+
+/* ковер1 */
+
+.roll p {
+  position: relative;
+  font-size: 2.50vw;
+}
+.roll span {
+  font-size: 6.04vw;
+  top: 1vw;
+  position: relative;
+}
+.im_c1 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet1.png");
+}
+
+/* ковер2 */
+.item1 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+.item2 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+.item3 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+.item4 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+.item5 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+.item6 {
+  display: inline;
+  width: 38.35vw;
+  height: 44.17vw;
+  margin-right: 3vw;
+}
+
+.im_c2 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet2.png");
+}
+
+.im_c3 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet3.png");
+}
+
+.im_c4 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet4.png");
+}
+
+.im_c5 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet5.png");
+}
+
+.im_c6 {
+  position: relative;
+  width: 22.57vw;
+  height: 32.29vw;
+  background-size: cover;
+  background-image: url("../img/carpet6.png");
+}
+
+
+  @media screen and (min-width: 415px) and (max-width: 820px) {
+
+        body {
+          background-image: url("../img/bg_ipad.svg");
+          background-size: cover;
+          display: block;
+          height: 100vh;
+        }
+
+        .white {
+          width: 51.33vw;
+        }
+
+        .afisha {
+          width: 49.4vw;
+          height: 12vw;
+        }
+
+        .skazka {
+          width: 49.4vw;
+          height: 12vw;
+          top: 21vw;
+        }
+
+        .merch {
+          width: 49.4vw;
+          height: 12vw;
+          top: 33vw;
+        }
+
+        .rugs {
+          width: 49.4vw;
+          height: 12vw;
+          top: 45vw;
+        }
+
+        .custom {
+          width: 49.4vw;
+          height: 12vw;
+          top: 57vw;
+        }
+    .navi p {
+      font-size: 2.34vw;
+    }
+    .white_left {
+      width: 100vw;
+      top: 8vw;
+      height: 42.58vw;
+    }
+    h3.opis {
+      font-size: 2.86vw;
+      width: 44.34vw;
+      margin-left: 2.34vw;
+      margin-top: 1vw;
+    }
+    p.names{
+      font-size: 4.69vw;
+      margin-left: 3vw;
+    }
+    span.names {
+      top: 8vw;
+      font-size: 4.9vw;
+      margin-left: 15vw;
+      margin-top: -1vw;
+    }
+    .btn_merch {
+      width: 34.11vw;
+      height: 3.91vw;
+      margin-left: 2.34vw;
+      margin-top: -4vw;
+    }
+    .btn_merch h3 {
+      font-size: 2.86vw;
+    }
+    .roll {
+      left: 32vw;
+      top: 50vw;
+      width: 52vw;
+      height: 375.9vw;
+      flex-direction: column;
+      display: flex;
+    }
+    .roll p {
+      font-size: 4.17vw;
+    }
+    .roll span {
+      font-size: 9.90vw;
+    }
+    .im_c1, .im_c2, .im_c3, .im_c4, .im_c5, .im_c6 {
+      width: 36.85vw;
+      height:52.73vw;
+      margin-top: -2vw;}
+
+    .item1, .item2, .item3, .item4, .item5, .item6  {
+      width: 36.85vw;
+      height: 70vw;
+      margin-bottom: 5vw;
+    }
+  }
+
+
+    @media screen and (min-width: 381px) and (max-width: 414px) {
+
+      body {
+        background-image: url("../img/bg_iphone.svg");
+        background-size: cover;
+        display: block;
+        height: 100vh;
+      }
+      .navi p {
+        font-size: 4.35vw;
+      }
+      .white {
+        width: 100vw;
+      }
+      .text {
+        font-size: 30px;
+      }
+      .close {
+        left: 2vw;
+      }
+      .afisha, .skazka, .merch, .rugs, .custom {
+        left: 2vw;
+        width: 96vw;
+        height: 18vw;
+      }
+      .afisha { top: 16vw;
+      }
+      .skazka { top: 34vw;
+      }
+      .merch { top: 52vw;
+      }
+      .rugs { top: 70vw;
+      }
+      .custom { top: 88vw;
+      }
+
+
+        .white_left {
+          width: 100vw;
+          top: 16.04vw;
+          height: 78.46vw;
+          border-radius: 10px;
+        }
+        h3.opis {
+          font-size: 3.9vw;
+          width: 96.34vw;
+          margin-left: 2.34vw;
+          margin-top: -1vw;
+        }
+        p.names{
+          font-size: 5vw;
+          margin-left: 3vw;
+          margin-top: -2vw;
+        }
+        span.names {
+          top: 8vw;
+          font-size: 5.5vw;
+          margin-left: 58vw;
+          margin-top: -8vw;
+        }
+        .btn_merch {
+          width: 49.76vw;
+          height: 6.04vw;
+          margin-left: 23.34vw;
+          margin-top: -4vw;
+        }
+        .btn_merch h3 {
+          font-size: 4.35vw;
+        }
+
+        .roll {
+          left: 23vw;
+          top: 93vw;
+          width: 52vw;
+          height: 375.9vw;
+          flex-direction: column;
+          display: flex;
+        }
+        .roll p {
+          font-size: 5.31vw;
+        }
+        .roll span {
+          font-size: 13.04vw;
+        }
+        .im_c1, .im_c2, .im_c3, .im_c4, .im_c5, .im_c6 {
+          width: 54.11vw;
+          height: 77.29vw;
+          margin-top: -2vw;}
+
+        .item1, .item2, .item3, .item4, .item5, .item6  {
+          width: 60vw;
+          height: 96vw;
+          margin-bottom: 5vw;
+        }
+
+      }
+      @media screen and (min-width: 200px) and (max-width: 380px) {
+
+
+        body {
+          background-image: url("../img/mini_iphone.svg");
+          background-size: cover;
+          display: block;
+          height: 100vh;
+        }
+
+        nav {
+          width: 300px;
+          left: 60px;
+        }
+
+              p {
+                font-size: 16px;
+              }
+
+              .navi p {
+                left: 67px;
+                top: 7px;
+              }
+
+              .container {
+                left: 244px;
+              }
+
+              .clock {
+                left: 316px;
+              }
+              .nav.menu {
+                left: 12px;
+              }
+        .text {
+          font-size: 30px;
+        }
+
+        .close {
+          left: 2vw;
+        }
+
+        .afisha, .skazka, .merch, .rugs, .custom {
+          left: 2vw;
+          width: 96vw;
+          height: 18vw;
+        }
+        .white {
+          width: 100vw;
+        }
+
+        .afisha { top: 16vw;
+        }
+        .skazka { top: 34vw;
+        }
+        .merch { top: 52vw;
+        }
+        .rugs { top: 70vw;
+        }
+        .custom { top: 88vw;
+        }
+        .white_left {
+          width: 100vw;
+          top: 16.04vw;
+          height: 69.46vw;
+          border-radius: 10px;
+        }
+        h3.opis {
+          font-size: 3.9vw;
+          width: 96.34vw;
+          margin-left: 2.34vw;
+          margin-top: -3vw;
+        }
+        p.names{
+          font-size: 5vw;
+          margin-left: 3vw;
+          margin-top: 1vw;
+        }
+        span.names {
+          top: 8vw;
+          font-size: 5.5vw;
+          margin-left: 58vw;
+          margin-top: -5vw;
+        }
+        .btn_merch {
+          width: 49.76vw;
+          height: 6.04vw;
+          margin-left: 23.34vw;
+          margin-top: -4vw;
+        }
+        .btn_merch h3 {
+          font-size: 4.35vw;
+        }
+
+        .roll {
+          left: 23vw;
+          top: 82vw;
+          width: 52vw;
+          height: 375.9vw;
+          flex-direction: column;
+          display: flex;
+        }
+        .roll p {
+          font-size: 5.31vw;
+        }
+        .roll span {
+          font-size: 13.04vw;
+        }
+        .im_c1, .im_c2, .im_c3, .im_c4, .im_c5, .im_c6 {
+          width: 46.11vw;
+          height: 70.29vw;
+          margin-top: -2vw;}
+
+        .item1, .item2, .item3, .item4, .item5, .item6  {
+          width: 60vw;
+          height: 96vw;
+          margin-bottom: 5vw;
+        }
+
+    }
