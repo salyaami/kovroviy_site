@@ -1,6 +1,4 @@
 body {
-  background-image: url(../img/bg_f.png);
-  background-size: cover;
   display: block;
   height: 100vh;
 }
@@ -29,7 +27,7 @@ width: 480px;
 position: relative;
 top: -2vw;
 margin: 62px 9px -24px 20px;
-font-size: 1.25vw;
+font-size: 18px;
 text-align: left;
 color: black;
 }
@@ -186,8 +184,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .button, .next1 {
   font-size: 22px;
-  width: 15vw;
-  height: 2vw;
+  width: 215px;
+  height: 25px;
   color: black;
   background-color: #DFFB6E;
   border: 2px solid #DFFB6E;
@@ -248,7 +246,7 @@ width: 30vw;
   width: 100%;;
 }
  .list1 span {
-  font-size: 2.5vw;
+  font-size: 36px;
   margin-right: 1vw;
   color: black;
 }
@@ -318,3 +316,71 @@ color: black;
   border: 2px solid black;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='000000'/%3e%3c/svg%3e");
  }
+
+@media screen and (min-width: 441px) and (max-width: 820px) {
+
+  .question {
+    width: 70vw;
+    height: 60vh;
+    left: calc(50% - 35vw);
+  }
+  p.form {
+    margin-left: -19vw;
+  }
+  .forma {
+    width: 70vw;
+    height: 56vh;
+    left: calc(50% - 35vw);
+  }
+  .fo {
+    top: -5vw;
+  }
+  .forma_after {
+    width: 79vw;
+    height: 17.3vw;
+    left: calc(50% - 40vw);
+  }
+  p.form_a {
+    margin-top: 0;
+  }
+}
+
+/* адаптивы для mobiles */
+@media screen and (min-width: 381px) and (max-width: 440px) {
+  .question {
+    width: 100vw;
+    height: 69vh;
+    left: 0;
+  }
+
+  p.form {
+    margin-left: -1vw;
+  }
+
+  .fo {
+    top: -5vw;
+    margin: 62px 9px -12px 20px;
+  }
+
+  .forma {
+    width: 100vw;
+    height: 77vh;
+    left: 0;
+  }
+  .form-split {
+    width: 400px;
+    position: relative;
+    display: grid;
+  }
+  .forma_after {
+    width: 92vw;
+    height: 17.3vw;
+    left: 0;
+  }
+  .form_a {
+    font-size: 32px;
+    line-height: 29px;
+    margin-top: -8px;
+    margin-left: 0vw;
+  }
+}

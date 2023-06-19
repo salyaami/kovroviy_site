@@ -139,6 +139,48 @@ $(".cross2").click(function() {
     $(".wrapper5").css("display", "none")
   });
 
+  // книга - cмена шапки по клику
+
+  $(".glava1").click(function() {
+    $(".side_black").css("display", "block")
+    $(".side_black2").css("display", "none")
+    $(".side_black4").css("display", "none")
+    $(".side_black5").css("display", "none")
+    $(".side_black7").css("display", "none")
+
+  });
+
+  $(".glava2").click(function() {
+    $(".side_black2").css("display", "block")
+    $(".side_black").css("display", "none")
+    $(".side_black4").css("display", "none")
+    $(".side_black5").css("display", "none")
+    $(".side_black7").css("display", "none")
+  });
+
+  $(".glava4").click(function() {
+    $(".side_black4").css("display", "block")
+    $(".side_black").css("display", "none")
+    $(".side_black2").css("display", "none")
+    $(".side_black5").css("display", "none")
+    $(".side_black7").css("display", "none")
+  });
+
+  $(".glava5").click(function() {
+    $(".side_black5").css("display", "block")
+    $(".side_black").css("display", "none")
+    $(".side_black2").css("display", "none")
+    $(".side_black4").css("display", "none")
+    $(".side_black7").css("display", "none")
+  });
+
+  $(".glava7").click(function() {
+    $(".side_black7").css("display", "block")
+    $(".side_black").css("display", "none")
+    $(".side_black2").css("display", "none")
+    $(".side_black5").css("display", "none")
+    $(".side_black4").css("display", "none")
+  });
 
 
 

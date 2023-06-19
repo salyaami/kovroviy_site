@@ -356,12 +356,13 @@
       top: -15vw;
     }
 
-    span {
+    .look1 span, .look2 span, .look3 span  {
       font-size: 6.5vw;
     }
     .look2 p:first-child, .look3 p:first-child, .look1 p:first-child{
       font-size: 6.5vw;
       left: 20vw;
+      top: -3vh;
     }
     .look3 p:first-child {
       margin-left: -9vw;

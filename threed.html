@@ -86,7 +86,7 @@
   </style>
 </head>
 <body>
-  <script src="three.min.js"></script>
+  <!-- <script src="three.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
@@ -151,7 +151,9 @@
     let loader = new THREE.GLTFLoader();
     let obj = null;
 
-    loader.load("/Users/aslyapina/Documents/сайтик_4модуль/apple2.gltf", function(gltf) {
+    https://threejs.org/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf
+
+    loader.load("https://raw.githubusercontent.com/salyaami/kovroviy_site/main/apple2.gltf", function(gltf) {
       obj = gltf.scene;
       scene.add(obj);
     });

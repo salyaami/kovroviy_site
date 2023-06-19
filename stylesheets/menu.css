@@ -246,12 +246,7 @@ nav .menu {
 /* адаптивы для планшетов */
 @media screen and (min-width: 441px) and (max-width: 820px) {
 
-  body {
-    background-image: url("../img/bg_ipad.svg");
-    background-size: cover;
-    display: block;
-    height: 100vh;
-  }
+
 
   .white {
     width: 51.33vw;
@@ -291,12 +286,6 @@ nav .menu {
 @media screen and (min-width: 381px) and (max-width: 440px) {
 
 
-  body {
-    background-image: url("../img/bg_iphone.svg");
-    background-size: cover;
-    display: block;
-    height: 100vh;
-  }
   .white {
     width: 100vw;
   }
@@ -324,13 +313,6 @@ nav .menu {
 }
 
 @media screen and (min-width: 200px) and (max-width: 380px) {
-
-  body {
-    background-image: url("../img/mini_iphone.svg");
-    background-size: cover;
-    display: block;
-    height: 100vh;
-  }
 
   nav {
     width: 300px;
