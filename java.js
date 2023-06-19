@@ -97,7 +97,47 @@ $(".cross2").click(function() {
 
 
 
-  // афиша
+  // книга - слайдер в завис от главы
+
+  $(".glava1").click(function() {
+    $(".wrapper1").css("display", "block")
+    $(".wrapper2").css("display", "none")
+    $(".wrapper4").css("display", "none")
+    $(".wrapper5").css("display", "none")
+    $(".wrapper7").css("display", "none")
+  });
+
+  $(".glava2").click(function() {
+    $(".wrapper2").css("display", "block")
+    $(".wrapper1").css("display", "none")
+    $(".wrapper4").css("display", "none")
+    $(".wrapper5").css("display", "none")
+    $(".wrapper7").css("display", "none")
+  });
+
+  $(".glava4").click(function() {
+    $(".wrapper4").css("display", "block")
+    $(".wrapper1").css("display", "none")
+    $(".wrapper2").css("display", "none")
+    $(".wrapper5").css("display", "none")
+    $(".wrapper7").css("display", "none")
+  });
+
+  $(".glava5").click(function() {
+    $(".wrapper5").css("display", "block")
+    $(".wrapper1").css("display", "none")
+    $(".wrapper2").css("display", "none")
+    $(".wrapper4").css("display", "none")
+    $(".wrapper7").css("display", "none")
+  });
+
+  $(".glava7").click(function() {
+    $(".wrapper7").css("display", "block")
+    $(".wrapper1").css("display", "none")
+    $(".wrapper2").css("display", "none")
+    $(".wrapper4").css("display", "none")
+    $(".wrapper5").css("display", "none")
+  });
 
 
 

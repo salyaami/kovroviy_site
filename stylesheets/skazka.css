@@ -16,7 +16,7 @@
     min-width: 0;
   }
 
-  .wrapper {
+  .wrapper1, .wrapper2, .wrapper4, .wrapper5, .wrapper7 {
     padding: 30px;
     min-height: 100%;
   }
@@ -556,5 +556,5 @@
       top: 88.81vw;
     }
 
-    
+
   }
