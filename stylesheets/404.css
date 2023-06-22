@@ -1,6 +1,6 @@
 span {
   position: absolute;
-  top: 8.47vw;
+  top: 5.47vw;
   left: 6.67vw;
   font-size: 15.07vw;
 }
@@ -16,10 +16,9 @@ span {
 
 p {
   position: absolute;
-  top: 21.53vw;
+  top: 19.53vw;
   left: 6.67vw;
-  font-size: 4.17vw;
-
+  font-size: 2.17vw;
 }
 
 .logo_404 {
@@ -52,7 +51,7 @@ p {
       }
 
       p {
-        font-size: 60px;
+        font-size: 36px;
         left: 6.25vw;
         top: 31.32vw;
       }
@@ -85,15 +84,14 @@ p {
       }
 
       span {
-
-        left: 27.78vw;
+        left: 9.78vw;
         top: 16.67vw;
         font-size: 26.07vw;
       }
 
       p {
-        font-size: 8.70vw;
-        left: 18.78vw;
+        font-size: 24px;
+        left: 8.780000000000001vw;
         top: 44.69vw;
       }
 
@@ -124,15 +122,14 @@ p {
 
 
             span {
-
-              left: 27.78vw;
+              left: 7.78vw;
               top: 16.67vw;
               font-size: 26.07vw;
             }
 
             p {
-              font-size: 8.70vw;
-              left: 18.78vw;
+              font-size: 5.7vw;
+              left: 7.780000000000001vw;
               top: 44.69vw;
             }
 
