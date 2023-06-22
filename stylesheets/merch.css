@@ -16,12 +16,12 @@
 
   h3.opis {
     display: flex;
-    margin-top: 5vw;
+    margin-top: 7vw;
     margin-left: 1vw;
-    width: 23.92vw;
+    width: 27.92vw;
     top: 6vw;
     left: 1.5vw;
-    font-size: 1.33vw;
+    font-size: 1.53vw;
   }
 
   p.names {

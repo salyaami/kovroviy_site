@@ -82,7 +82,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 3vh;
+    bottom: -1vh;
     left: 12vw;
     width: 22.64vw;
     text-align: center;
@@ -255,7 +255,7 @@
     border: 2px solid #DFFB6E;
     margin-left: auto;
     margin-right: auto;
-    top: 1vh;
+    top: 5vh;
     position: relative;
     margin: auto;
     width: 15.63vw;
@@ -264,6 +264,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 
   .btnn:hover{
