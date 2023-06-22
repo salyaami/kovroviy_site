@@ -21,17 +21,17 @@ h3.opis {
 
 p.names {
   position: relative;
-  font-size: 2.50vw;
-  top: 2vw;
-  left: 1.5vw;
-  width: 10.35vw;
+      font-size: 2.50vw;
+      top: 6vw;
+      left: 1.5vw;
+      width: 10.35vw;
 }
 span.names {
   position: relative;
-  top: 5vw;
+  top: 6vw;
   left: 16vw;
   width: 2.85vw;
-  font-size: 3.3vw;
+  font-size: 2.6vw;
 }
 .btn_merch {
   position: relative;
@@ -44,9 +44,9 @@ span.names {
   border: 2px solid #DFFB6E;
   margin: auto;
   border-radius: 5px;
-  margin-top: 1vh;
+  margin-top: 13vh;
 }
-.btn_merch:hover{
+.btn_merch:hover {
   color: black;
   background-color: white;
   border: 2px solid #DFFB6E;
@@ -63,7 +63,7 @@ span.names {
   position: absolute;
   display: flex;
   left: 35.97vw;
-  top: 1vh;
+  top: 4vh;
   width: 146.67vw;
   height: 44.17vw;
 }
@@ -83,6 +83,7 @@ span.names {
   position: relative;
   width: 22.57vw;
   height: 32.29vw;
+  margin-top: 2vw;
   background-size: cover;
   background-image: url("../img/carpet1.png");
 }
@@ -129,6 +130,7 @@ span.names {
   position: relative;
   width: 22.57vw;
   height: 32.29vw;
+  margin-top: 2vw;
   background-size: cover;
   background-image: url("../img/carpet2.png");
 }
@@ -137,6 +139,7 @@ span.names {
   position: relative;
   width: 22.57vw;
   height: 32.29vw;
+  margin-top: 2vw;
   background-size: cover;
   background-image: url("../img/carpet3.png");
 }
@@ -145,6 +148,7 @@ span.names {
   position: relative;
   width: 22.57vw;
   height: 32.29vw;
+  margin-top: 2vw;
   background-size: cover;
   background-image: url("../img/carpet4.png");
 }
@@ -154,6 +158,7 @@ span.names {
   width: 22.57vw;
   height: 32.29vw;
   background-size: cover;
+  margin-top: 2vw;
   background-image: url("../img/carpet5.png");
 }
 
@@ -161,6 +166,7 @@ span.names {
   position: relative;
   width: 22.57vw;
   height: 32.29vw;
+  margin-top: 2vw;
   background-size: cover;
   background-image: url("../img/carpet6.png");
 }

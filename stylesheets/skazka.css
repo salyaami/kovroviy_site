@@ -132,7 +132,7 @@
   .side_black7 p:nth-child(1) {
     font-size: 3vw;
     position: fixed;
-    top: 65vh;
+    top: 69vh;
     left: 1.46vw;
     color: white;
   }
@@ -145,7 +145,7 @@
   .side_black5 p:nth-child(2),
   .side_black7 p:nth-child(2) {
     position: fixed;
-    top: 77vh;
+    top: 79vh;
     left: 1.25vw;
     color: white;
     width: 27.36vw;
@@ -649,7 +649,7 @@
     margin-top: 4vw;
   }
   .image-slider .swiper-button-next {
-    margin-top: 4vw;  
+    margin-top: 4vw;
   }
 
   }
