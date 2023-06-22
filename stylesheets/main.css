@@ -100,7 +100,6 @@
   position: absolute;
   top: 4vw;
   left: 78vw;
-  z-index: 12;
 }
 .logoss {
   background-image: url(../img/logoss.png);
