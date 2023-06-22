@@ -15,25 +15,29 @@
   }
 
   h3.opis {
-    position: relative;
-    width: 27.92vw;
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 1vw;
+    width: 23.92vw;
     top: 6vw;
     left: 1.5vw;
+    font-size: 1.33vw;
   }
 
   p.names {
-    position: relative;
     font-size: 2.50vw;
-    top: 2vw;
-    left: 1.5vw;
-    width: 10.35vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 10vw;
+    display: flex;
   }
   span.names {
+    display: inline;
     position: relative;
-    top: 5vw;
-    left: 16vw;
+    margin-left: 15vw;
+    margin-top: 2.5vw;
     width: 2.85vw;
-    font-size: 3.3vw;
+    font-size: 2.5vw;
   }
   .btn_merch {
     position: relative;
@@ -365,17 +369,17 @@
       }
       h3.opis {
         font-size: 3.9vw;
-        width: 96.34vw;
-        margin-left: 2.34vw;
-        margin-top: -1vw;
+        width: 78.34vw;
+        margin-left: 9.34vw;
+        margin-top: 4vw;
       }
       p.names{
         font-size: 5vw;
-        margin-left: 3vw;
+        margin-left: 10vw;
         margin-top: -2vw;
       }
       span.names {
-        top: 8vw;
+        top: 6vw;
         font-size: 5.5vw;
         margin-left: 58vw;
         margin-top: -8vw;
@@ -384,19 +388,19 @@
         width: 49.76vw;
         height: 6.04vw;
         margin-left: 23.34vw;
-        margin-top: -4vw;
+        margin-top: 0vw;
       }
       .btn_merch h3 {
         font-size: 4.35vw;
       }
       .roll {
         left: 0vw;
-        top: 102vw;
+        top: 105vw;
         height: 81.17vw;
       }
       .roll {
         left: 16vw;
-        top: 99vw;
+        top: 104vw;
         width: 41vw;
         height: 375.9vw;
         flex-direction: column;
@@ -477,6 +481,7 @@
             .navi p {
               left: 67px;
               top: 7px;
+              font-size: 17px;
             }
 
             .container {
@@ -614,58 +619,4 @@
         margin-top: -6vw;
       }
 
-
-            /* .roll {
-              left: 0vw;
-              top: 86vw;
-              height: 81.17vw;
-            }
-            .roll p {
-              font-size: 5.31vw;
-            }
-            .roll span {
-              font-size: 13.04vw;
-              top: 75vw;
-            }
-            .im_bag, .item1 {
-              width: 63.53vw;
-              height: 71.98vw;
-              top: -4vw;
-            }
-            .im_shop, .item2 {
-              width: 61.35vw;
-              height: 69.32vw;
-              top: -4vw;
-            }
-            .item3, .im_cup {
-              width: 62.56vw;
-              height: 69.32vw;
-              top: -4vw;
-            }
-            .item4, .im_drink {
-              width: 44.17vw;
-              height: 60.3vw;
-              top: 2vw;
-              margin-right: 5vw;
-              margin-left: 5vw;
-            }
-            .item5, .im_t-sh {
-              width: 66.78vw;
-              height: 64vw;
-              top: 2vw;
-              margin-left: 5vw;
-            }
-            .item6, .im_hood {
-              width: 69vw;
-              height: 73.37vw;
-              top: 2vw;
-              margin-top: -2vw;
-              margin-left: 10vw;
-              margin-right: 11vw;
-            }
-            .item7, .im_plate {
-              width: 87.44vw;
-              height: 61.84vw;
-              top: 2vw;
-            } */
-        }
+}

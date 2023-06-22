@@ -37,7 +37,6 @@
     justify-content: center;
     position: relative;
     top: -10vh;
-
   }
 
   .numb1 {
@@ -328,10 +327,10 @@
     }
     .even1, .even2, .even3 {
       width: 32.42vw;
-      height: 48.57vw;
-      position: relative;
-      left: -30vw;
-      top: -15vw;
+          height: 48.57vw;
+          position: relative;
+          left: -30vw;
+          top: -5vw;
     }
 
     .look1 span, .look2 span, .look3 span  {
@@ -339,8 +338,8 @@
     }
     .look2 p:first-child, .look3 p:first-child, .look1 p:first-child{
       font-size: 6.5vw;
-      left: 20vw;
-      top: -3vh;
+          left: 20vw;
+          top: 5vh;
     }
     .look3 p:first-child {
       margin-left: -9vw;
@@ -351,20 +350,20 @@
     }
 
     .numb1, .numb2, .numb3 {
-      top: -16vw;
+      top: 1vw;
       left: 46vw;
     }
     p.dis {
       position: relative;
-      bottom: 62vw;
+      bottom: 40vw;
       left: 45vw;
-      width: 44.64vw;
+      width: 40.64vw;
       text-align: left;
     }
     p.btnn {
       width: 39.06vw;
       height: 3.9vw;
-      top: -35vw;
+      top: -17vw;
       left: 14vw;
     }
     .event1 {
@@ -420,6 +419,9 @@
     span.name {
       font-size: 7.6vw;
     }
+    span.vox {
+      margin-top: 0vw;
+    }
 
     .more-inf1, .more-inf2, .more-inf3 {
       width: 39.06vw;
@@ -446,24 +448,10 @@
     }
     .text {
       font-size: 30px;
+      margin: auto;
     }
     .close {
       left: 2vw;
-    }
-    .afisha, .skazka, .merch, .rugs, .custom {
-      left: 2vw;
-      width: 96vw;
-      height: 18vw;
-    }
-    .afisha { top: 16vw;
-    }
-    .skazka { top: 34vw;
-    }
-    .merch { top: 52vw;
-    }
-    .rugs { top: 70vw;
-    }
-    .custom { top: 88vw;
     }
 
     .look1, .look2, .look3 {
@@ -475,15 +463,15 @@
     }
     .even1, .even2, .even3 {
       width: 38.16vw;
-      height: 55.56vw;
+      height: 55vw;
       left: -25vw;
-      top: -20vw;
+      top: -9vw;
     }
     .numb1, .numb2 {
       height: 5.07vw;
       width: 5.07vw;
       left: 48vw;
-      top: -17vw;
+      top: -2vw;
     }
     .numb3 {
       left: 44vw;
@@ -492,32 +480,33 @@
     }
     span.vox {
       font-size: 6vw;
+      margin-top: 0vw;
     }
 
     .look2 p:first-child, .look3 p:first-child, .look1 p:first-child {
       font-size: 6vw;
       margin-left: 46vw;
-      top: -1vh;
+      top: 2vh;
     }
     p.dis {
       font-size: 2.90vw;
       text-align: left;
-      top: -63vw;
+      top: -54vw;
       left: 49vw;
-      width: 44vw;
+      width: 43vw;
     }
     p.btnn {
       width: 31.64vw;
       height: 5vw;
-      top: -47vw;
+      top: -26vw;
       font-size: 4.35vw;
       left: 14vw;
     }
 
     .event1 {
-      top: 40.22vh;;
+      top: 40.22vh;
       width: 90.58vw;
-      height: 68.60vw;
+      height: 105.6vw;
     }
     span.name {
       font-size: 13.04vw;
@@ -561,12 +550,12 @@
     .event2 {
       top: 84.56vh;
       width: 90.58vw;
-      height: 106vw;
+      height: 126vw;
     }
     .event3 {
-      top: 144.38vh;
+      top: 148.38vh;
       width: 90.58vw;
-      height: 82.85vw;
+      height: 100.85vw;
     }
     .more-inf3 {
       margin-bottom: 7vw;
@@ -636,7 +625,7 @@
 
     .look1, .look2, .look3 {
       width: 100vw;
-      height: 54.56vw;
+      height: 62.56vw;
       top: 15.04vw;
       border-radius: 9px;
       z-index: 12;
@@ -645,13 +634,13 @@
       width: 32.53vw;
       height: 47.47vw;
       left: -25vw;
-      top: -20vw;
+      top: -5vw;
     }
     .numb1, .numb2 {
       height: 5.07vw;
       width: 5.07vw;
       left: 48vw;
-      top: -17vw;
+      top: 0vw;
     }
     .numb3 {
       left: 44vw;
@@ -665,26 +654,27 @@
     .look2 p:first-child, .look3 p:first-child, .look1 p:first-child {
       font-size: 6vw;
       margin-left: 46vw;
+      top: 3vh;
     }
     p.dis {
       font-size: 2.90vw;
-      text-align: left;
-      top: -63vw;
-      left: 49vw;
-      width: 44vw;
+          text-align: left;
+          top: -42vw;
+          left: 49vw;
+          width: 40vw;
     }
     p.btnn {
       width: 31.64vw;
       height: 5vw;
-      top: -45vw;
+      top: -22vw;
       font-size: 4.35vw;
       left: 14vw;
     }
 
     .event1 {
-      top: 42.22vh;
+      top: 47.22vh;
       width: 90.58vw;
-      height: 68.60vw;
+      height: 100.6vw;
     }
     span.name {
       font-size: 10vw;
@@ -727,12 +717,12 @@
       height: 44.69vw;
     }
     .event2 {
-      top: 87.56vh;
+      top: 94.56vh;
       width: 90.58vw;
-      height: 109vw;
+      height: 126vw;
     }
     .event3 {
-      top: 154.38vh;
+      top: 162.38vh;
       width: 90.58vw;
       height: 82.85vw;
     }

@@ -2,7 +2,7 @@
   display: flex;
   position: fixed;
   width: 100px;
-  height: 40px;
+  height: 36px;
   background: #C4D332;
   border-radius: 5px;
   left: 443px;
@@ -18,7 +18,7 @@
   display: flex;
   position: fixed;
   width: 100px;
-  height: 40px;
+  height: 36px;
   background: #FEC708;
   border-radius: 5px;
   left: 765px;
@@ -33,7 +33,7 @@
   display: flex;
   position: fixed;
   width: 160px;
-  height: 40px;
+  height: 36px;
   background: #D763F7;
   border-radius: 5px;
   left: 575px;
@@ -48,7 +48,7 @@
   display: flex;
   position: fixed;
   width: 160px;
-  height: 40px;
+  height: 36px;
   border-radius: 5px;
   left: 575px;
   top: 10px;

@@ -164,6 +164,7 @@
     margin-right: auto;
     border-radius: 5px;
     margin-top: 16vw;
+
   }
   .btn_order:hover{
     color: black;
@@ -426,7 +427,7 @@
     .side_black5 p:nth-child(1),
     .side_black7 p:nth-child(1)  {
       font-size: 6.7vw;
-      top: 16vw;
+      top: 23vw;
       left: 41vw;
     }
     .side_black p:nth-child(2),
@@ -445,8 +446,8 @@
     .btn_order {
       width: 26.04vw;
       height: 4.69vw;
-      top: 60vw;
-      left: 41vw;
+      margin-left: 41vw;
+      margin-top: 3vw;
     }
     h3.zak {
       font-size: 3.53vw;
@@ -504,6 +505,7 @@
   .image-slider .swiper-button-prev {
     margin-left: 1vw;
 }
+}
 
   @media screen and (min-width: 200px) and (max-width: 380px) {
 
@@ -512,49 +514,23 @@
       background-size: cover;
       display: block;
       height: 100vh;
+      overflow-x: hidden;
+      overflow-y: hidden;
     }
-
-    nav {
-      width: 300px;
-      left: 60px;
+    .white {
+      width: 100vw;
     }
-          p {
-            font-size: 16px;
-          }
-
-          .navi p {
-            left: 67px;
-            top: 7px;
-          }
-
-          .container {
-            left: 244px;
-          }
-
-          .clock {
-            left: 316px;
-          }
-          .nav.menu {
-            left: 12px;
-          }
-
     .text {
       font-size: 30px;
     }
-
     .close {
       left: 2vw;
     }
-
     .afisha, .skazka, .merch, .rugs, .custom {
       left: 2vw;
       width: 96vw;
       height: 18vw;
     }
-    .white {
-      width: 100vw;
-    }
-
     .afisha { top: 16vw;
     }
     .skazka { top: 34vw;
@@ -565,75 +541,72 @@
     }
     .custom { top: 88vw;
     }
-
     .side_black,
     .side_black2,
     .side_black4,
     .side_black5,
     .side_black7 {
       width: 100vw;
-      height: 49.67vw;
+      height: 53.67vw;
       border-radius: 13px;
       top: 14.38vw;
     }
     .main_6, .main_2, .main_4, .main_5, .main_7 {
-      width: 31.4vw;
-      height: 42.75vw;
-      left: -29.06vw;
-      top: -1vw;
+      width: 33.4vw;
+      height: 41.75vw;
+      top: 9vw;
     }
 
-    span {
-      font-size: 10.39vw;
+    span.vox {
+      font-size: 9vw;
     }
 
     .side_black p:nth-child(1),
     .side_black2 p:nth-child(1),
     .side_black4 p:nth-child(1),
     .side_black5 p:nth-child(1),
-    .side_black7 p:nth-child(1)
-{
-      font-size: 8.70vw;
-      top: 10vw;
+    .side_black7 p:nth-child(1)  {
+      font-size: 6.7vw;
+      top: 23vw;
       left: 41vw;
     }
     .side_black p:nth-child(2),
     .side_black2 p:nth-child(2),
     .side_black4 p:nth-child(2),
     .side_black5 p:nth-child(2),
-    .side_black7 p:nth-child(2)
-     {
+    .side_black7 p:nth-child(2)  {
       position: fixed;
-      top: 28vw;
+      top: 34vw;
       left: 41vw;
       color: white;
-      width: 56.36vw;
+      width: 51.36vw;
       font-size: 2.9vw;
     }
 
     .btn_order {
       width: 26.04vw;
       height: 4.69vw;
-      top: 56vw;
-      left: 41vw;
+      margin-left: 41vw;
+      margin-top: 3vw;
     }
-    h3 {
-      font-size: 2.86vw;
+    h3.zak {
+      font-size: 3.53vw;
     }
     .razv {
       width: 88vw;
       height: 54.83vw;
-      top: 36.83vh;
+      top: 38.83vh;
       left: 6vw;
     }
     .glava1, .img1, .glava2, .img2, .glava5, .img5, .glava4, .img4, .glava7, .img7  {
-      width: 18vw;
-      height: 22.36vw;
+      width: 16vw;
+      height: 20.36vw;
     }
     .glava1, .glava2, .glava4 {
-      top: 69vh;}
+      top: 71vh;}
+
     .glava5, .glava7 {
-      top: 84.5vh;
+      top: 86vh;
     }
     .glava1 {left: 11vw;}
     .glava2 {left: 40vw;}
@@ -643,22 +616,40 @@
 
     h3.mini {
       font-size: 3.5vw;
-      width: 24vw;
+      width: 26vw;
     }
     .slider {
       width: 10vw;
       height: 10vw;
       position: absolute;
       left: -2.64vw;
-      top: 88.81vw;
+      top: 104.81vw;
     }
     .slider1 {
       width: 10vw;
       height: 10vw;
       position: absolute;
       left: 91.64vw;
-      top: 88.81vw;
+      top: 104.81vw;
+    }
+    .wrapper {
+      padding: 30px;
+      min-height: 100%;
+      margin-top: 64vw;
     }
 
+    .image-slider__image {
+      text-align: center;
+      margin-top: 56vw;
+      margin-left: 4vw;
+  }
+
+  .image-slider .swiper-button-prev {
+    margin-left: 1vw;
+    margin-top: 4vw;
+  }
+  .image-slider .swiper-button-next {
+    margin-top: 4vw;  
+  }
 
   }

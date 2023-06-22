@@ -208,7 +208,7 @@ span.names {
           top: 57vw;
         }
     .navi p {
-      font-size: 2.34vw;
+      font-size: 18px;
     }
     .white_left {
       width: 100vw;
@@ -217,32 +217,36 @@ span.names {
     }
     h3.opis {
       font-size: 2.86vw;
-      width: 44.34vw;
+      width: 50.34vw;
       margin-left: 2.34vw;
       margin-top: 1vw;
     }
     p.names{
-      font-size: 4.69vw;
+      font-size: 4vw;
       margin-left: 3vw;
+      font-size: 4vw;
+      top: 6vw;
+      left: 1.5vw;
+      width: 10.35vw;
     }
     span.names {
-      top: 8vw;
-      font-size: 4.9vw;
-      margin-left: 15vw;
+      top: 6vw;
+      font-size: 4.3vw;
+      margin-left: 10vw;
       margin-top: -1vw;
     }
     .btn_merch {
       width: 34.11vw;
       height: 3.91vw;
       margin-left: 2.34vw;
-      margin-top: -4vw;
+      margin-top: 5vw;
     }
     .btn_merch h3 {
       font-size: 2.86vw;
     }
     .roll {
       left: 32vw;
-      top: 50vw;
+      top: 54vw;
       width: 52vw;
       height: 375.9vw;
       flex-direction: column;
@@ -256,8 +260,8 @@ span.names {
     }
     .im_c1, .im_c2, .im_c3, .im_c4, .im_c5, .im_c6 {
       width: 36.85vw;
-      height:52.73vw;
-      margin-top: -2vw;}
+      height: 52.73vw;
+      margin-top: 3vw;}
 
     .item1, .item2, .item3, .item4, .item5, .item6  {
       width: 36.85vw;
@@ -276,7 +280,7 @@ span.names {
         height: 100vh;
       }
       .navi p {
-        font-size: 4.35vw;
+        font-size: 18px;
       }
       .white {
         width: 100vw;
@@ -338,8 +342,8 @@ span.names {
         }
 
         .roll {
-          left: 23vw;
-          top: 93vw;
+          left: 26vw;
+          top: 102vw;
           width: 52vw;
           height: 375.9vw;
           flex-direction: column;
@@ -354,11 +358,11 @@ span.names {
         .im_c1, .im_c2, .im_c3, .im_c4, .im_c5, .im_c6 {
           width: 54.11vw;
           height: 77.29vw;
-          margin-top: -2vw;}
+          margin-top: 4vw;}
 
         .item1, .item2, .item3, .item4, .item5, .item6  {
           width: 60vw;
-          height: 96vw;
+          height: 113vw;
           margin-bottom: 5vw;
         }
 
