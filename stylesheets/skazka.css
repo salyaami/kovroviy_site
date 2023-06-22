@@ -61,7 +61,7 @@
 
   .main_6, .main_2, .main_4, .main_5, .main_7 {
     position: relative;
-    width: 21.11vw;
+    width: 23.11vw;
     height: 28.89vw;
     background-image: url('../img/main6.jpg');
     background-size: cover;
@@ -151,18 +151,19 @@
     width: 27.36vw;
   }
   .btn_order {
-    position: fixed;
     background-color: #DFFB6E;
     justify-content: center;
     top: 93vh;;
     margin-left: auto;
     margin-right: auto;
     width: 13.89vw;
-    height: 2.50vw;
+    height: 2.5vw;
     display: flex;
     border: 2px solid #DFFB6E;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
+    margin-top: 16vw;
   }
   .btn_order:hover{
     color: black;

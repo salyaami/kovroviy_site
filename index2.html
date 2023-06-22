@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <title>посидим поедим</title>
+    <!-- самая важная строчка в твоей жизни!! не забудь ее в следующий раз -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favimain.png">
+    <link href="https://allfont.ru/allfont.css?fonts=pragmatica" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link href="stylesheets/choose.css" rel="stylesheet">
+    <link href="stylesheets/menu.css" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="java.js"></script>
+  </head>
+  <style media="screen">
+
+    body {
+      background-image: url("img/bg.svg");
+      background-size: cover;
+      display: block;
+      height: 100vh;
+    }
+
+    @font-face {
+    font-family: Voxel; /* Имя шрифта */
+    src: url(Voxel.otf); /* Путь к файлу со шрифтом */
+    }
+
+    @font-face {
+    font-family: Pragmatica; /* Имя шрифта */
+    src: url(Pragmatica-Book.ttf); /* Путь к файлу со шрифтом */
+    }
+
+    .screen_help {
+      display: none;
+    }
+
+    P {
+      font-family: 'Pragmatica', arial;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    span {
+      font-family: Voxel;
+      font-size: 5.56vw;
+    }
+
+  </style>
+  <body>
+    <!-- это все верхняя плашка -->
+    <nav>
+      <div class="menu"></div>
+      <a href="index.html" class="navi">
+        <p>ПОСИДИМ ПОЕДИМ</p>
+      </a>
+    </nav>
+
+    <div class="clock">
+
+      <div class="hour">
+        <div class="hours"></div>
+      </div>
+
+      <div class="minute">
+        <div class="minutes"></div>
+      </div>
+
+      <div class="second">
+        <div class="seconds"></div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class='eye'></div>
+      <div class='eye'></div>
+    </div>
+
+    <!-- это все верхняя плашка -->
+
+    <div class="choose">
+      <a class="bag" href="merch.html"></a>
+      <p class="merc"><span>Market</span>-мерч</p>
+
+      <a class="rug" href="carpets.html"></a>
+      <p class="ru"><span>Market</span>-ковры</p>
+
+    </div>
+
+    <div class="screen_help">
+      <div class="white">
+      </div>
+
+      <div class="close"></div>
+
+      <a href="afisha.html" class="afisha">
+        <p class="text">АФИША</p>
+      </a>
+
+      <a href="skazka.html" class="skazka">
+        <p class="text">СКАЗКА О НАС</p>
+      </a>
+
+      <a href="merch.html" class="merch">
+        <p class="text">МЕРЧ</p>
+      </a>
+
+      <a href="carpets.html" class="rugs">
+        <p class="text">КОВРЫ</p>
+      </a>
+
+      <a href="https://salyaami.github.io/js_kovriki/" target="_blank" class="custom1">
+        <p class="text">КАСТОМ ОНЛАЙН</p>
+      </a>
+
+    </div>
+
+  </body>
+</html>

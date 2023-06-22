@@ -11,31 +11,6 @@
     display: none;
   }
 
-  .bag {
-    background-image: url(../img/bag.png);
-    position: absolute;
-    left: 11.53vw;
-    top: 6.11vw;
-    height: 43.75vw;
-    width: 32.36vw;
-  }
-
-  .rug {
-    background-image: url(../img/rug.png);
-    position: absolute;
-    left: 55vw;
-    top: 6.11vw;
-    height: 43.75vw;
-    width: 39.72vw;
-  }
-
-  .rug:hover {
-    transform: scale(1.1);
-  }
-  .bag:hover {
-    transform: scale(1.1);
-  }
-
   .look1, .look3, .look2 {
     position: fixed;
     justify-content: center;
@@ -51,6 +26,9 @@
     font-size: 5.56vw;
     color: black;
     font-family: Voxel;
+  }
+  span.vox {
+    margin-top: 1vw;
   }
   .look2 p:first-child, .look3 p:first-child, .look1 p:first-child{
     font-size: 5.56vw;
@@ -189,7 +167,8 @@
     background-color: white;
     border: 2px solid #DFFB6E;
     transition: .5s;
-    cursor: pointer;  }
+    cursor: pointer;
+  }
 
 
   p.inf {
@@ -441,6 +420,7 @@
     span.name {
       font-size: 7.6vw;
     }
+
     .more-inf1, .more-inf2, .more-inf3 {
       width: 39.06vw;
       height: 3.9vw;

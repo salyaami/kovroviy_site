@@ -41,7 +41,6 @@ $(".cross2").click(function() {
 
   // тут радио-кнопки с коврами
 
-
   $(".btn_merch").click(function() {
     $(".question").css("display", "block")
     $(".background").css("display", "block")
@@ -147,7 +146,11 @@ $(".cross2").click(function() {
     $(".side_black4").css("display", "none")
     $(".side_black5").css("display", "none")
     $(".side_black7").css("display", "none")
+  });
 
+  $(".buy").click(function() {
+    $(".question").css("display", "block")
+    $(".background").css("display", "block")
   });
 
   $(".glava2").click(function() {

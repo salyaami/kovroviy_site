@@ -1,0 +1,440 @@
+.afi_but {
+  display: flex;
+  position: fixed;
+  width: 100px;
+  height: 40px;
+  background: #C4D332;
+  border-radius: 5px;
+  left: 443px;
+  top: 10px;
+  z-index: 10;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid #C4D332;
+}
+
+
+.market_but {
+  display: flex;
+  position: fixed;
+  width: 100px;
+  height: 40px;
+  background: #FEC708;
+  border-radius: 5px;
+  left: 765px;
+  top: 10px;
+  z-index: 10;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid #FEC708;
+}
+
+.tale_but{
+  display: flex;
+  position: fixed;
+  width: 160px;
+  height: 40px;
+  background: #D763F7;
+  border-radius: 5px;
+  left: 575px;
+  top: 10px;
+  z-index: 10;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid #D763F7;
+}
+
+.buy {
+  display: flex;
+  position: fixed;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  left: 575px;
+  top: 10px;
+  z-index: 10;
+  align-items: center;
+  text-decoration: none;
+  left: 86.4vw;
+  background-color: #C4D332;
+  width: 177px;
+  border: 2px solid #C4D332;
+}
+
+.buy:hover, .tale_but:hover, .market_but:hover, .afi_but:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid #C4D332;
+  transition: .5s;
+  cursor: pointer;
+}
+.tale_but:hover {  border: 2px solid #D763F7; }
+.market_but:hover {  border: 2px solid #FEC708;}
+.afi_but:hover { border: 2px solid #C4D332; }
+
+
+
+
+
+.afi_but p, .market_but p, .tale_but p, .buy p {
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.apple_main {
+  background-image: url(../img/apple_main.png);
+      background-size: cover;
+      height: 16vw;
+      width: 16vw;
+      position: absolute;
+      top: 4vw;
+      left: 18vw;
+}
+
+.pruzhina {
+  background-image: url(../img/pruzhina.png);
+  background-size: cover;
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  top: 4vw;
+  left: 78vw;
+  z-index: 12;
+}
+.logoss {
+  background-image: url(../img/logoss.png);
+  background-size: cover;
+  height: 16vw;
+      width: 22vw;
+      position: absolute;
+      top: 5vw;
+      left: 46vw;
+}
+.telega {
+  background-image: url(../img/telega.png);
+  background-size: cover;
+  height: 31.94vw;
+      width: 31.94vw;
+      position: absolute;
+      top: 24vw;
+      left: 56vw;
+}
+.kover_main {
+  background-image: url(../img/kover_main.png);
+  background-size: cover;
+  height: 38.86vw;
+  width: 30.310000000000002vw;
+  position: absolute;
+  top: 9.71vw;
+  left: 0;
+}
+.torus {
+  background-image: url(../img/torus.png);
+      background-size: cover;
+      height: 23vw;
+      width: 23vw;
+      position: absolute;
+      top: 28.71vw;
+      left: 24.82vw;
+}
+
+
+
+    /* адаптивы для планшетов */
+    @media screen and (min-width: 415px) and (max-width: 820px) {
+
+      body {
+        background-image: url(../img/bg_ipad_black.svg);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+      }
+
+      .afi_but, .market_but, .tale_but {
+        display: none;
+      }
+      .buy {
+        left: 73.4vw;
+      }
+
+      .bag {
+        position: absolute;
+        left: 3.39vw;
+        top: 7.6vh;
+        height: 56.12vw;
+        width: 50.91vw;
+      }
+
+      .rug {
+        position: absolute;
+        left: -2vw;
+        background-repeat: no-repeat;
+        top: 48vh;
+        height: 62vw;
+        width: 63.54vw;
+      }
+
+      .white {
+        width: 51.33vw;
+      }
+
+      .afisha {
+        width: 49.4vw;
+        height: 12vw;
+      }
+
+      .skazka {
+        width: 49.4vw;
+        height: 12vw;
+        top: 21vw;
+      }
+
+      .merch {
+        width: 49.4vw;
+        height: 12vw;
+        top: 33vw;
+      }
+
+      .rugs {
+        width: 49.4vw;
+        height: 12vw;
+        top: 45vw;
+      }
+
+      .custom {
+        width: 49.4vw;
+        height: 12vw;
+        top: 57vw;
+      }
+      span {
+        font-size: 8vw;
+      }
+      p.merc {
+        font-size: 6vw;
+        left: 54vw;
+        top: 15vh;
+      }
+
+      p.ru {
+        font-size: 6vw;
+        position: absolute;
+        left: 54vw;
+        top: 55vh;
+      }
+      .kover_main {
+        background-size: cover;
+        height: 61.86vw;
+        width: 44.31vw;
+        position: absolute;
+        top: 6.710000000000001vw;
+        left: -7vw;
+      }
+      .torus {
+        height: 41vw;
+        width: 41vw;
+        top: 94.71000000000001vw;
+        left: 0vw;
+      }
+      .telega {
+        height: 47.94vw;
+        width: 47.94vw;
+        top: 79vw;
+        left: 53vw;
+      }
+      .pruzhina {
+        height: 38vw;
+        width: 36vw;
+        position: absolute;
+        top: 34vw;
+        left: 67vw;
+      }
+      .logoss {
+        top: 52vw;
+        left: 33vw;
+        height: 19vw;
+        width: 27vw;
+      }
+      .apple_main {
+        height: 33vw;
+        width: 32vw;
+        top: 7vw;
+        left: 47vw;
+      }
+
+
+      /* экран с выбором ковер или мерч */
+    }
+
+    /* адаптивы для планшетов */
+    @media screen and (min-width: 381px) and (max-width: 414px) {
+
+
+      body {
+        /* background-image: url("../img/bg_iphone_black.svg"); */
+        background-image: url(../img/bbg.png);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+      }
+
+      .bag {
+        left: 10.7vw;
+        top: 7.1vh;
+        height: 93vw;
+        width: 84vw;
+      }
+
+      .rug {
+        left: 0vw;
+        top: 47vh;
+        height: 97vw;
+        width: 99vw;
+      }
+
+      span {
+        font-size: 14.7vw;
+      }
+      p.merc {
+        font-size: 11.1vw;
+        left: 14vw;
+        top: 41vh;
+      }
+      p.ru {
+        font-size: 11.1vw;
+        position: absolute;
+        left: 11.3vw;
+        top: 82vh;
+      }
+      .white {
+        width: 100vw;
+      }
+      .text {
+        font-size: 30px;
+      }
+
+      .close {
+        left: 2vw;
+      }
+
+      .afisha, .skazka, .merch, .rugs, .custom {
+        left: 2vw;
+        width: 96vw;
+        height: 18vw;
+      }
+
+      .afisha { top: 16vw;
+      }
+      .skazka { top: 34vw;
+      }
+      .merch { top: 52vw;
+      }
+      .rugs { top: 70vw;
+      }
+      .custom { top: 88vw;
+      }
+
+      .telega {
+        height: 67.94vw;
+        width: 67.94vw;
+        top: 142vw;
+        left: 30vw;
+      }
+      .torus {
+        top: 109.71000000000001vw;
+        left: -2.1799999999999997vw;
+        height: 49vw;
+        width: 49vw;
+      }
+      .buy {
+        display: none;
+      }
+      .logoss {
+        top: 80vw;
+        left: 31vw;
+        width: 32vw;
+        height: 23vw;
+      }
+      .kover_main {
+        top: 1.71vw;
+        left: 0;
+        height: 71.86vw;
+        width: 59.31vw;
+      }
+      .pruzhina {
+        display: none;
+      }
+      .apple_main {
+        top: 46vw;
+        width: 38vw;
+        height: 38vw;
+        left: 64vw;
+      }
+
+    }
+
+    @media screen and (min-width: 200px) and (max-width: 380px) {
+
+      body {
+        background-image: url("../img/mini_iphone.svg");
+        background-size: cover;
+        display: block;
+        height: 100vh;
+      }
+
+      .text {
+        font-size: 30px;
+      }
+
+      .close {
+        left: 2vw;
+      }
+
+      .afisha, .skazka, .merch, .rugs, .custom {
+        left: 2vw;
+        width: 96vw;
+        height: 18vw;
+      }
+      .white {
+        width: 100vw;
+      }
+
+      .afisha { top: 16vw;
+      }
+      .skazka { top: 34vw;
+      }
+      .merch { top: 52vw;
+      }
+      .rugs { top: 70vw;
+      }
+      .custom { top: 88vw;
+      }
+
+            .nav {
+              width: 286px;
+              left: 66px;
+            }
+
+            p {
+              font-size: 16px;
+            }
+
+            .navi p {
+              left: 75px;
+              top: 7px;
+            }
+
+            .container {
+              left: 244px;
+            }
+
+            .clock {
+              left: 316px;
+            }
+
+      span {
+        font-size: 14.7vw;
+      }
+
+
+    }

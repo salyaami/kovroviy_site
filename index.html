@@ -8,9 +8,9 @@
     <link rel="icon" type="image/x-icon" href="favimain.png">
     <link href="https://allfont.ru/allfont.css?fonts=pragmatica" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
-    <link href="stylesheets/choose.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
     <link href="stylesheets/menu.css" rel="stylesheet">
-
+    <link href="stylesheets/forms.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="java.js"></script>
@@ -18,10 +18,12 @@
   <style media="screen">
 
     body {
-      background-image: url("img/bg.svg");
+      background-image: url("img/bg_black.svg");
       background-size: cover;
       display: block;
       height: 100vh;
+      overflow-y: hidden;
+      overflow-x: hidden;
     }
 
     @font-face {
@@ -43,6 +45,7 @@
       font-size: 18px;
       text-decoration: none;
     }
+
     span {
       font-family: Voxel;
       font-size: 5.56vw;
@@ -80,15 +83,6 @@
 
     <!-- это все верхняя плашка -->
 
-    <div class="choose">
-      <a class="bag" href="merch.html"></a>
-      <p class="merc"><span>Market</span>-мерч</p>
-
-      <a class="rug" href="carpets.html"></a>
-      <p class="ru"><span>Market</span>-ковры</p>
-
-    </div>
-
     <div class="screen_help">
       <div class="white">
       </div>
@@ -116,6 +110,106 @@
       </a>
 
     </div>
+
+    <a href="afisha.html" class="afi_but">
+      <p>АФИША</p>
+    </a>
+
+    <a href="index2.html" class="market_but">
+      <p>РЫНОК</p>
+    </a>
+
+    <a href="skazka.html" class="tale_but">
+      <p>СКАЗКА О НАС</p>
+    </a>
+
+    <div class="buy">
+      <p>ЗАКАЗАТЬ КОВЕР</p>
+    </div>
+
+
+    <!-- здесь радио-лист -->
+    <div class="question">
+    <div class="cross2"></div>
+    <p class="form">Оформить заказ</p>
+    <p class="text fo">Какой коврик Вас заинтересовал?</p>
+    <div class="list">
+
+    <div class="list1">
+    <div class="radio-list">
+      <input type="radio" class="rcustom" name="rad" id="rad" value="">
+      <label for="rad"><span>01</span>яблочный | 30$</label>
+        </div>
+          <div class="radio-list">
+      <input type="radio" class="rcustom" name="rad2" id="rad2" value="">
+      <label for="rad2"><span>02</span>новогодний | 40$</label>
+    </div>
+      <div class="radio-list">
+      <input type="radio" class="rcustom" name="rad3" id="rad3" value="">
+      <label for="rad3"><span>03</span>вегетарианский | 45$</label>
+    </div>
+      <div class="radio-list">
+      <input type="radio" class="rcustom" name="rad4" id="rad4" value="">
+      <label for="rad4"><span>04</span>праздничный | 40$</label>
+    </div>
+    <div class="radio-list">
+    <input type="radio" class="rcustom" name="rad5" id="rad5" value="">
+    <label for="rad5"><span>05</span>рыбный | 45$</label>
+    </div>
+    <div class="radio-list">
+    <input type="radio" class="rcustom" name="rad6" id="rad6" value="">
+    <label for="rad6"><span>06</span>летний | 30$</label>
+    </div>
+
+    <div class="next1">
+      <p class="but">продолжить</p>
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+
+    <div class="forma">
+      <div class="cross"></div>
+      <p class="form">Оформить заказ</p>
+      <p class="text fo">Как к вам обращаться?</p>
+      <div class="form-split">
+        <input type="name" class="put" name="" value="" placeholder="Имя">
+          <input type="name1" class="put" name="" value="" placeholder="Фамилия">
+      </div>
+      <p class="text fo">Куда отправить информацию?</p>
+      <input type="email" name="" value="" placeholder="E-mail">
+      <p class="text fo">Как с вами связаться?</p>
+      <input type="tel" name="" value="" placeholder="+7 ()">
+      <p class="text fo">Подтвердить телефон:</p>
+      <div class="checkbox-list">
+        <input type="checkbox" class="custom" name="check" id="check" value="">
+        <label for="check">звонок</label>
+        <input type="checkbox" class="custom" name="check2" id="check2" value="">
+        <label for="check2">смс</label>
+      </div>
+      <div class="button complete">
+        <p class="but">оформить</p>
+      </div>
+    </div>
+
+    <div class="forma_after">
+      <p class="form_a">Оформление прошло успешно</p>
+    </div>
+    <div class="background"></div>
+
+    <div class="torus"></div>
+    <div class="pruzhina"></div>
+    <div class="logoss"></div>
+    <div class="telega"></div>
+    <div class="kover_main"></div>
+    <div class="apple_main">
+
+    </div>
+
+
+
 
   </body>
 </html>
