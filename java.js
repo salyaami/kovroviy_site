@@ -54,6 +54,13 @@ $('.background').hide(250);
   });
   });
 
+  $(function(){
+    $('.btn_order').click(function(){
+      $('.question').show(250),
+      $('.background').show(250);
+  });
+  });
+
   // продолжаем закрываем радио кнопаки
 
   $(function(){
