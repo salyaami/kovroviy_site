@@ -349,7 +349,7 @@ color: black;
 
   .question {
     width: 100vw;
-    height: 76vh;
+    height: 100vh;
     left: 0;
   }
 
@@ -366,7 +366,7 @@ color: black;
 
   .forma {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     left: 0;
     top: 8vh;
   }
@@ -412,7 +412,7 @@ color: black;
 
   .question {
     width: 100vw;
-    height: 161vw;
+    height: 100vh;
     z-index: 15;
     background-color: white;
     color: black;
@@ -420,5 +420,9 @@ color: black;
     top: 10vh;
     border-radius: 20px;
     left: 0;
+  }
+  .forma {
+    height: 100vh;
+    width: 100vw;
   }
 }
