@@ -48,13 +48,6 @@ $('.background').hide(250);
   });
 
   $(function(){
-    $('.buy').click(function(){
-      $('.question').show(250),
-      $('.background').show(250);
-  });
-  });
-
-  $(function(){
     $('.btn_order').click(function(){
       $('.question').show(250),
       $('.background').show(250);
@@ -155,6 +148,11 @@ $('.background').hide(250);
     $(".side_black4").css("display", "none")
     $(".side_black5").css("display", "none")
     $(".side_black7").css("display", "none")
+  });
+
+  $(".buy").click(function() {
+    $(".question").css("display", "block")
+    $(".background").css("display", "block")
   });
 
   $(".glava2").click(function() {
