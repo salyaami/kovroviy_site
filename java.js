@@ -12,87 +12,89 @@ $(document).ready(function(){
     $(".screen_help").css("display", "none")
   });
 
-// появление формы
+// close формы
 
-$(".btnn").click(function() {
-  $(".background").css("display", "block")
-  $(".question").css("display", "block")
+$(function(){
+$('.cross').click(function(){
+  $('.forma').hide(200),
+  $('.question').hide(200),
+  $('.background').hide(250);
+});
 });
 
-$(".cross2").click(function() {
-  $(".background").css("display", "none")
-  $(".question").css("display", "none")
+$(function(){
+$('.cross2').click(function(){
+$('.forma').hide(200),
+$('.question').hide(200),
+$('.background').hide(250);
+});
 });
 
-  $(".cross").click(function() {
-    $(".background").css("display", "none")
-    $(".forma").css("display", "none")
+  // тут радио-кнопки с коврами появляются по всем кнопкам
+
+
+  $(function(){
+    $('.btn_merch').click(function(){
+      $('.question').show(250),
+      $('.background').show(250);
+  });
   });
 
-  $(".button").click(function() {
-    $(".forma").css("display", "none")
-    $(".forma_after").css("display", "block")
+  $(function(){
+    $('.btnn').click(function(){
+      $('.question').show(250),
+      $('.background').show(250);
+  });
   });
 
-  $(".forma_after").click(function() {
-    $(".forma_after").css("display", "none")
-    $(".background").css("display", "none")
+  $(function(){
+    $('.btn_order').click(function(){
+      $('.question').show(250),
+      $('.background').show(250);
+  });
   });
 
-  // тут радио-кнопки с коврами
+  // продолжаем закрываем радио кнопаки
 
-  $(".btn_merch").click(function() {
-    $(".question").css("display", "block")
-    $(".background").css("display", "block")
-  });
+  $(function(){
+  $('.next1').click(function(){
+    $('.question').hide(200),
+    $('.forma').show(250);
+});
+});
 
-  $(".cross2").click(function() {
-    $(".background").css("display", "none")
-    $(".question").css("display", "none")
-  });
+// закрываем все и тележка
 
-  $(".next1").click(function() {
-    $(".question").css("display", "none")
-    $(".background").css("display", "block")
-    $(".forma").css("display", "block")
-  });
-
-  // выбрать из сказки
-  $(".btn_order").click(function() {
-    $(".question").css("display", "block")
-    $(".background").css("display", "block")
-  });
-
-  $(".cross2").click(function() {
-    $(".background").css("display", "none")
-    $(".question").css("display", "none")
-  });
-
-  $(".next1").click(function() {
-    $(".question").css("display", "none")
-    $(".background").css("display", "block")
-    $(".forma").css("display", "block")
+  $(function(){
+    $('.complete').click(function(){
+      $('.forma').hide(200),
+      $('.forma_after').show(250),
+      $('.forma_after').delay(2400).hide(200),
+      $('.background').delay(2700).hide(200);
+    });
   });
 
   // закончились формы и чек-листы ура
 
   $(".more-inf3").click(function() {
-    $(".look1").css("display", "none")
-    $(".look2").css("display", "none")
-    $(".look3").css("display", "block")
+    $(".look1").hide(200),
+    $(".look2").hide(200),
+    $(".look3").show(250);
   });
 
   $(".more-inf2").click(function() {
-    $(".look1").css("display", "none")
-    $(".look3").css("display", "none")
-    $(".look2").css("display", "block")
+    $(".look1").hide(200),
+    $(".look3").hide(200),
+    $(".look2").show(250);
   });
 
   $(".more-inf1").click(function() {
-    $(".look2").css("display", "none")
-    $(".look3").css("display", "none")
-    $(".look1").css("display", "block")
+    $(".look2").hide(200),
+    $(".look3").hide(200),
+    $(".look1").show(250);
   });
+
+
 
 
 
